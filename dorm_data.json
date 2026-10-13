@@ -1,0 +1,1968 @@
+[
+  {
+    "dormitoryName": "Glockengasse Residence",
+    "address": "Glockengasse 4b, 5020 Salzburg",
+    "buildingAmenities": [
+      "Fitness room / gym",
+      "Music practice rooms",
+      "Rooftop terrace",
+      "Common lounge with TV/projector",
+      "Table football",
+      "24/7 appliance rental service"
+    ],
+    "bikeStorage": "Bicycle storage room available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [
+      "https://www.home4students.at/wp-content/uploads/2017/09/bude_aussn01.jpg"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Home4Students)",
+        "primaryUrl": "https://www.home4students.at/en/our-dormitories/dormitories-salzburg/dormitory-glockengasse/",
+        "sourceLinks": {
+          "applicationPortal": "https://www.home4students.at/en/our-dormitories/dormitories-salzburg/dormitory-glockengasse/",
+          "roomsAndPricing": "https://www.home4students.at/en/our-dormitories/dormitories-salzburg/dormitory-glockengasse/",
+          "contractAndCancellation": "https://www.home4students.at/en/our-dormitories/dormitories-salzburg/dormitory-glockengasse/",
+          "houseRules": "https://www.home4students.at/en/our-dormitories/dormitories-salzburg/dormitory-glockengasse/"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling 6-12 months prior to desired move-in",
+          "deadline": "Rolling admission / Restplätze",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Consulting hours: Monday to Thursday 10:00 to 12:00. Weekend move-in generally prohibited without proxy.",
+          "guestPolicy": "Short-term guests generally require registration and potential nightly fee."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (April 30 for Summer Semester)",
+          "cancellationPenalty": "Loss of deposit or administrative fees depending on timeframe"
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "None explicitly stated for direct",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Proximity to Mozarteum and PLUS Law/Theology noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "High demand due to central location near Linzer Gasse"
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: €100.00",
+          "Mandatory final cleaning (Endreinigung): €55.00"
+        ],
+        "rooms": [
+          {
+            "roomType": "Twin Room (Zweibettzimmer)",
+            "monthlyRentEur": 305.0,
+            "depositEur": 610.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi and LAN included",
+            "cleaningServices": "Communal areas cleaned, self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Shelf",
+              "Cabinets"
+            ]
+          },
+          {
+            "roomType": "Single Room (Einzelzimmer)",
+            "monthlyRentEur": 360.0,
+            "depositEur": 720.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi and LAN included",
+            "cleaningServices": "Communal areas cleaned, self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Shelf",
+              "Cabinets"
+            ]
+          }
+        ]
+      },
+      {
+        "provider": "OeAD Intermediary Broker",
+        "primaryUrl": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/glockengasse/",
+        "sourceLinks": {
+          "applicationPortal": "https://housing.oead.at",
+          "roomsAndPricing": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/glockengasse/",
+          "contractAndCancellation": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/",
+          "houseRules": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/"
+        },
+        "applicationWindow": {
+          "portalOpens": "November 1 for Summer Semester",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served upon deposit payment"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup at Universitaetsplatz 7 (Mon-Fri by appointment). Move-in outside office hours requires lockbox/weekend arrangement.",
+          "guestPolicy": "Overnight guests allowed after informing residence manager. Fee of €24.20/night per guest."
+        },
+        "contractTerms": {
+          "noticePeriod": "Minimum duration one semester. Fixed-term contracts end automatically without extension.",
+          "cancellationPenalty": "Non-refundable €80 booking fee. Cancellation post-deposit incurs forfeiture of initial fees."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "International Erasmus/exchange students and scholars",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Rooms booked via OeAD do not include kitchen dishes.",
+          "Bedding (pillow, duvet) can be rented for a fee."
+        ],
+        "mandatoryExtraFees": [
+          "Application/handling fee: €80.00 (one-time)",
+          "Monthly booking surcharge: €21.00",
+          "Mandatory final cleaning (Endreinigung): €55.00",
+          "Move-in administrative fee: €50.00"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 400.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Cleaning service included for room",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Haus Humboldt",
+    "address": "Egger-Lienz-Gasse 3, 5020 Salzburg",
+    "buildingAmenities": [
+      "Community and party rooms",
+      "Table football",
+      "Table tennis",
+      "Billiards",
+      "Roof terrace",
+      "Music room",
+      "Parking space"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "Communal laundry room with washers and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (WIST)",
+        "primaryUrl": "https://neu.wist-salzburg.com",
+        "sourceLinks": {
+          "applicationPortal": "https://www.wist-salzburg.com/bewerben",
+          "roomsAndPricing": "https://www.studium.at/studentenheim/haus-humboldt",
+          "contractAndCancellation": "https://www.wist-salzburg.com/information-faq",
+          "houseRules": "https://www.wist-salzburg.com/images/Heimstatut-WIST-Salzburg.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Strict office hours for contract signing and key handover: Monday, Tuesday, Thursday 10:00 - 13:00. Prior email appointment required.",
+          "guestPolicy": "Unregistered long-term guests strictly prohibited. May result in termination of contract."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard 12-month contract (Sept 1 - Aug 31). Early termination for Summer Semester allowed if notice given by April 30 for June 30 end.",
+          "cancellationPenalty": "€50 if canceled 1 month prior; €350 if canceled 14 days prior; full deposit loss if shorter."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Proximity to NAWI and Unipark Nonntal noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "Internet provided via LAN only (no official Wi-Fi in rooms, own router required)"
+        ],
+        "mandatoryExtraFees": [
+          "Internet activation and processing fee: Variable",
+          "Glass insurance fee: Variable"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room in WG",
+            "monthlyRentEur": 361.0,
+            "depositEur": 722.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN port only (own router required)",
+            "cleaningServices": "Daily cleaning of communal areas",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Storage unit"
+            ]
+          }
+        ]
+      },
+      {
+        "provider": "OeAD Intermediary Broker",
+        "primaryUrl": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/egger-lienz-gasse/",
+        "sourceLinks": {
+          "applicationPortal": "https://housing.oead.at",
+          "roomsAndPricing": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/egger-lienz-gasse/",
+          "contractAndCancellation": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/",
+          "houseRules": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/"
+        },
+        "applicationWindow": {
+          "portalOpens": "November 1 for Summer Semester",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served upon deposit payment"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup at Universitaetsplatz 7 (Mon-Fri by appointment). Move-in outside office hours requires arrangement.",
+          "guestPolicy": "Overnight guests allowed after informing residence manager. Fee of €24.20/night per guest."
+        },
+        "contractTerms": {
+          "noticePeriod": "Minimum duration one semester. Fixed-term contracts end automatically.",
+          "cancellationPenalty": "Non-refundable €80 booking fee. Cancellation post-deposit incurs forfeiture of initial fees."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "International Erasmus/exchange students and scholars",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Room contains a TV-port, but no TV-set provided."
+        ],
+        "mandatoryExtraFees": [
+          "Application/handling fee: €80.00 (one-time)",
+          "Monthly booking surcharge: €21.00",
+          "Mandatory final cleaning (Endreinigung): €47.70",
+          "Move-in administrative fee: €104.40"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single room in living community",
+            "monthlyRentEur": 473.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection",
+            "cleaningServices": "Cleaning service included for room",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Haus Paracelsus",
+    "address": "Konrad-Laib-Straße 10, 5020 Salzburg",
+    "buildingAmenities": [
+      "Community and party rooms",
+      "Table football",
+      "Table tennis",
+      "Terraces",
+      "Garden with BBQ area"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "Communal laundry room with washers and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (WIST)",
+        "primaryUrl": "https://neu.wist-salzburg.com/haus-paracelsus/",
+        "sourceLinks": {
+          "applicationPortal": "https://www.wist-salzburg.com/bewerben",
+          "roomsAndPricing": "https://neu.wist-salzburg.com/haus-paracelsus/",
+          "contractAndCancellation": "https://www.wist-salzburg.com/information-faq",
+          "houseRules": "https://www.wist-salzburg.com/images/Heimstatut-WIST-Salzburg.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Strict office hours handled via Haus Humboldt (Mon, Tue, Thu 10:00-13:00).",
+          "guestPolicy": "Unregistered long-term guests strictly prohibited."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard 12-month contract (Sept 1 - Aug 31). Early termination for Summer Semester allowed if notice given by April 30 for June 30 end.",
+          "cancellationPenalty": "€50 if canceled 1 month prior; €350 if canceled 14 days prior; full deposit loss if shorter."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Directly opposite NAWI faculty)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Wi-Fi available only in communal areas and 4th floor. Other rooms require LAN router."
+        ],
+        "mandatoryExtraFees": [
+          "Internet activation and processing fee: Variable"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 392.3,
+            "depositEur": 784.6,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN port only (own router required for Wi-Fi in standard rooms)",
+            "cleaningServices": "Daily cleaning of communal areas",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Private refrigerator"
+            ]
+          },
+          {
+            "roomType": "Single Room with Balcony (4th Floor)",
+            "monthlyRentEur": 435.6,
+            "depositEur": 871.2,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Daily cleaning of communal areas",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Private refrigerator"
+            ]
+          },
+          {
+            "roomType": "Single Garconniere with Balcony/Terrace",
+            "monthlyRentEur": 463.6,
+            "depositEur": 927.2,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN port/Wi-Fi",
+            "cleaningServices": "Daily cleaning of communal areas",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Private refrigerator"
+            ]
+          }
+        ]
+      },
+      {
+        "provider": "OeAD Intermediary Broker",
+        "primaryUrl": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/konrad-laib-strasse/",
+        "sourceLinks": {
+          "applicationPortal": "https://housing.oead.at",
+          "roomsAndPricing": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/konrad-laib-strasse/",
+          "contractAndCancellation": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/",
+          "houseRules": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/"
+        },
+        "applicationWindow": {
+          "portalOpens": "November 1 for Summer Semester",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served upon deposit payment"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup at Universitaetsplatz 7 (Mon-Fri by appointment). Move-in outside office hours requires arrangement.",
+          "guestPolicy": "Overnight guests allowed after informing residence manager. Fee of €24.20/night per guest."
+        },
+        "contractTerms": {
+          "noticePeriod": "Minimum duration one semester. Fixed-term contracts end automatically.",
+          "cancellationPenalty": "Non-refundable €80 booking fee. Cancellation post-deposit incurs forfeiture of initial fees."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "International Erasmus/exchange students and scholars",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Room contains a TV-port, but no TV-set provided."
+        ],
+        "mandatoryExtraFees": [
+          "Application/handling fee: €80.00 (one-time)",
+          "Monthly booking surcharge: €21.00",
+          "Mandatory final cleaning (Endreinigung): €47.70",
+          "Move-in administrative fee: €104.40"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 480.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection",
+            "cleaningServices": "Cleaning service included for room",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Private refrigerator"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Haus Merian",
+    "address": "Merianstraße 40, 5020 Salzburg",
+    "buildingAmenities": [
+      "Community room",
+      "Music practice room"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "Communal laundry room with washers and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (WIST)",
+        "primaryUrl": "https://neu.wist-salzburg.com/haus-merian",
+        "sourceLinks": {
+          "applicationPortal": "https://www.wist-salzburg.com/bewerben",
+          "roomsAndPricing": "https://www.studium.at/studentenheim/heimtraeger/wist-salzburg-wirtschaftshilfe-fuer-studierende",
+          "contractAndCancellation": "https://www.wist-salzburg.com/information-faq",
+          "houseRules": "https://www.wist-salzburg.com/images/Heimstatut-WIST-Salzburg.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Strict office hours handled via Haus Humboldt (Mon, Tue, Thu 10:00-13:00). Key pickup at Egger-Lienz-Gasse 3.",
+          "guestPolicy": "Unregistered long-term guests strictly prohibited."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard 12-month contract (Sept 1 - Aug 31). Early termination for Summer Semester allowed if notice given by April 30 for June 30 end.",
+          "cancellationPenalty": "€50 if canceled 1 month prior; €350 if canceled 14 days prior; full deposit loss if shorter."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Strategically located near Hauptbahnhof / Hbf)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [
+          "Internet activation and processing fee: Variable"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Garconniere",
+            "monthlyRentEur": 515.0,
+            "depositEur": 1030.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN port only (own router required)",
+            "cleaningServices": "Daily cleaning of communal areas",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      },
+      {
+        "provider": "OeAD Intermediary Broker",
+        "primaryUrl": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/merianstrasse/",
+        "sourceLinks": {
+          "applicationPortal": "https://housing.oead.at",
+          "roomsAndPricing": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/merianstrasse/",
+          "contractAndCancellation": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/",
+          "houseRules": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/"
+        },
+        "applicationWindow": {
+          "portalOpens": "November 1 for Summer Semester",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served upon deposit payment"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup at Universitaetsplatz 7 (Mon-Fri by appointment).",
+          "guestPolicy": "Overnight guests allowed after informing residence manager. Fee of €24.20/night per guest."
+        },
+        "contractTerms": {
+          "noticePeriod": "Minimum duration one semester. Fixed-term contracts end automatically.",
+          "cancellationPenalty": "Non-refundable €80 booking fee. Cancellation post-deposit incurs forfeiture of initial fees."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "International Erasmus/exchange students and scholars",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Room contains a TV-port, but no TV-set provided."
+        ],
+        "mandatoryExtraFees": [
+          "Application/handling fee: €80.00 (one-time)",
+          "Monthly booking surcharge: €21.00",
+          "Mandatory final cleaning (Endreinigung): €47.70 or €66.60 depending on category",
+          "Move-in administrative fee: €104.40"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single room in living community",
+            "monthlyRentEur": 602.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection",
+            "cleaningServices": "Cleaning service included for room",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Single Apartment",
+            "monthlyRentEur": 623.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection",
+            "cleaningServices": "Cleaning service included for room",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Strubergasse (ÖJAB-Haus Salzburg)",
+    "address": "Strubergasse 1, 5020 Salzburg",
+    "buildingAmenities": [
+      "Fitness room",
+      "Music practice rooms",
+      "Seminar/lecture room",
+      "Reading corner with newspapers",
+      "Table football",
+      "Garden",
+      "Car parking (subject to fee)"
+    ],
+    "bikeStorage": "Bicycle storage room",
+    "laundryFacilities": "In-building laundry room / Waschsalon",
+    "photos": [
+      "https://www.oejab.at/fileadmin/_processed_/9/f/csm_Haus_Salzburg_in_Salzburg_Aussen_9e59d95f85.jpg"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (ÖJAB)",
+        "primaryUrl": "https://www.oejab.at/en/students/dormitories/strubergasse",
+        "sourceLinks": {
+          "applicationPortal": "https://www.oejab.at/en/students",
+          "roomsAndPricing": "https://www.oejab.at/en/students/dormitories/strubergasse",
+          "contractAndCancellation": "https://www.oejab.at/en/students/applicationinformationen",
+          "houseRules": "https://www.oejab.at/en/students/dormitories/strubergasse"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Office hours: Mon-Fri 09:00-12:00, Tue/Wed 19:00-20:30 (varies during holidays).",
+          "guestPolicy": "Overnight guests permitted subject to rules and registration."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard 9.5-month or 12-month contract options. Early termination per standard ÖJAB and Austrian dormitory law.",
+          "cancellationPenalty": "Financial penalty applies according to ÖJAB standard terms."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "Enrolled tertiary students and youth in training",
+          "facultyOrUniRestriction": "None (Accessible to Paracelsus Medical University and PLUS)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "Free high-speed internet (LAN) included."
+        ],
+        "mandatoryExtraFees": [
+          "Mandatory final cleaning (Endreinigung): €80.00"
+        ],
+        "rooms": [
+          {
+            "roomType": "Twin Comfort (Zweibettzimmer)",
+            "monthlyRentEur": 381.0,
+            "depositEur": 762.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection and Wi-Fi",
+            "cleaningServices": "Room cleaning service included",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Anteroom"
+            ]
+          },
+          {
+            "roomType": "Single Comfort",
+            "monthlyRentEur": 569.0,
+            "depositEur": 1138.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection and Wi-Fi",
+            "cleaningServices": "Room cleaning service included",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Shared flat kitchen (shared use)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Anteroom"
+            ]
+          },
+          {
+            "roomType": "Single Premium",
+            "monthlyRentEur": 593.0,
+            "depositEur": 1186.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection and Wi-Fi",
+            "cleaningServices": "Room cleaning service included",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Private kitchenette in room",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Anteroom"
+            ]
+          }
+        ]
+      },
+      {
+        "provider": "OeAD Intermediary Broker",
+        "primaryUrl": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/strubergasse/",
+        "sourceLinks": {
+          "applicationPortal": "https://housing.oead.at",
+          "roomsAndPricing": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/strubergasse/",
+          "contractAndCancellation": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/",
+          "houseRules": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/"
+        },
+        "applicationWindow": {
+          "portalOpens": "November 1 for Summer Semester",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served upon deposit payment"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup at Universitaetsplatz 7 (Mon-Fri by appointment). Move-in outside office hours requires arrangement.",
+          "guestPolicy": "Overnight guests welcome; consult OeAD student housing Salzburg for details."
+        },
+        "contractTerms": {
+          "noticePeriod": "Minimum duration one semester. Fixed-term contracts end automatically.",
+          "cancellationPenalty": "Non-refundable €80 booking fee. Cancellation post-deposit incurs forfeiture of initial fees."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "International Erasmus/exchange students and scholars",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Room contains a TV-port, but no TV-set provided."
+        ],
+        "mandatoryExtraFees": [
+          "Application/handling fee: €80.00 (one-time)",
+          "Monthly booking surcharge: €21.00",
+          "Mandatory final cleaning (Endreinigung): €80.00",
+          "Processing fee: €150.00"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 400.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN and Wi-Fi",
+            "cleaningServices": "Cleaning service included for room",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Priesterhausgasse / Schwarzes Rössl",
+    "address": "Priesterhausgasse 6, 5020 Salzburg",
+    "buildingAmenities": [
+      "Comfortable lobby on the ground floor",
+      "Music practice room"
+    ],
+    "bikeStorage": "Bicycle storage available",
+    "laundryFacilities": "In-building washing machines and dryers (€1.30 per load)",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Akademikerhilfe)",
+        "primaryUrl": "https://www.akademikerhilfe.at/en/salzburg",
+        "sourceLinks": {
+          "applicationPortal": "https://www.akademikerhilfe.at",
+          "roomsAndPricing": "https://www.akademikerhilfe.at/de/studentenheime",
+          "contractAndCancellation": "https://www.akademikerhilfe.at/sites/default/files/heime/downloads/Student%20Residence%20Statute_%201.10.2026.pdf",
+          "houseRules": "https://www.akademikerhilfe.at/sites/default/files/heime/downloads/5020%20S1%20Residence_Companion.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Check-in strictly during office hours unless alternative arrangements made.",
+          "guestPolicy": "Short-term guests require registration and payment of €5.00 nightly fee."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard contracts (Oct 1 - June 30). Terminations possible with adequate notice.",
+          "cancellationPenalty": "Loss of deposit or administrative fees depending on timeframe"
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Proximity to Mozarteum and Altstadt noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "High demand due to extreme central location (Linzer Gasse)"
+        ],
+        "mandatoryExtraFees": [
+          "Application processing fee: Variable",
+          "Annual maintenance contribution: Variable"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 350.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "High-speed Internet (80mbit) via LAN; Wi-Fi partially available",
+            "cleaningServices": "Daily cleaning of communal areas",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      },
+      {
+        "provider": "OeAD Intermediary Broker",
+        "primaryUrl": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/priesterhausgasse/",
+        "sourceLinks": {
+          "applicationPortal": "https://housing.oead.at",
+          "roomsAndPricing": "https://www.oeadstudenthousing.at/en/accommodation/Salzburg/priesterhausgasse/",
+          "contractAndCancellation": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/",
+          "houseRules": "https://www.oeadstudenthousing.at/en/oead-student-housing/agb/"
+        },
+        "applicationWindow": {
+          "portalOpens": "November 1 for Summer Semester",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served upon deposit payment"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup at Universitaetsplatz 7 (Mon-Fri by appointment). Move-in outside office hours requires arrangement.",
+          "guestPolicy": "Overnight guests allowed after informing residence manager. Fee of €24.20/night per guest."
+        },
+        "contractTerms": {
+          "noticePeriod": "Minimum duration one semester. Fixed-term contracts end automatically.",
+          "cancellationPenalty": "Non-refundable €80 booking fee. Cancellation post-deposit incurs forfeiture of initial fees."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years",
+          "targetGroup": "International Erasmus/exchange students and scholars",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Room contains a TV-port, but no TV-set provided."
+        ],
+        "mandatoryExtraFees": [
+          "Application/handling fee: €80.00 (one-time)",
+          "Monthly booking surcharge: €21.00",
+          "Mandatory final cleaning (Endreinigung): €70.00",
+          "Damage flat charge: €30.00"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 370.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "LAN connection",
+            "cleaningServices": "Cleaning service included for room",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen (no dishes)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Telephone (passive)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Internationales Kolleg",
+    "address": "Billrothstraße 10-18, 5020 Salzburg",
+    "buildingAmenities": [
+      "Green outdoor spaces",
+      "Central office for Salzburger Studentenwerk"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Salzburger Studentenwerk)",
+        "primaryUrl": "https://studentenheim.at/internationales-kolleg/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.at/internationales-kolleg/",
+          "roomsAndPricing": "https://studentenheim.at/internationales-kolleg/",
+          "contractAndCancellation": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf",
+          "houseRules": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission for Restplätze (short-term available places)",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup on contract start date from 13:00. Office hours: Mon-Thu 08:00-12:00, 13:00-16:00, Fri 08:00-12:00.",
+          "guestPolicy": "Written warning for unregistered long-term guests, leading to potential eviction."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (End of Summer Semester: August 31)",
+          "cancellationPenalty": "Early move-out does not reduce fee. €80 penalty for late key return."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years at start of dormitory year",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Proximity to NAWI, Unipark, PH Salzburg noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "Offers a 'Guesthouse' rate for short-term stays (professors/researchers)."
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: Variable (SEPA direct debit required)",
+          "Mandatory final cleaning (Endreinigung): Assessed upon move-out"
+        ],
+        "rooms": [
+          {
+            "roomType": "Twin Room (Wohnraum mit zwei getrennten Betten)",
+            "monthlyRentEur": 342.0,
+            "depositEur": 684.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Shared with roommate)",
+            "kitchenSetup": "Private kitchenette (Shared with roommate)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          },
+          {
+            "roomType": "Single Room in 3er-WG",
+            "monthlyRentEur": 352.0,
+            "depositEur": 704.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 495.0,
+            "depositEur": 990.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Franz von Sales Kolleg",
+    "address": "Robert-Preußler-Straße 11, 5020 Salzburg",
+    "buildingAmenities": [
+      "Underground parking garage"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Salzburger Studentenwerk)",
+        "primaryUrl": "https://studentenheim.at/franz-von-sales-kolleg/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.at/franz-von-sales-kolleg/",
+          "roomsAndPricing": "https://studentenheim.at/franz-von-sales-kolleg/",
+          "contractAndCancellation": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf",
+          "houseRules": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission for Restplätze (short-term available places)",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup on contract start date from 13:00 via main office.",
+          "guestPolicy": "Written warning for unregistered long-term guests, leading to potential eviction."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (End of Summer Semester: August 31)",
+          "cancellationPenalty": "Early move-out does not reduce fee. €80 penalty for late key return."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years at start of dormitory year",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Proximity to NAWI, Unipark, PH Salzburg, and FH Salzburg in Puch noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: Variable (SEPA direct debit required)",
+          "Mandatory final cleaning (Endreinigung): Assessed upon move-out"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room in 2er-WG or 4er-WG",
+            "monthlyRentEur": 451.0,
+            "depositEur": 902.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 495.0,
+            "depositEur": 990.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Europa Kolleg",
+    "address": "Robert-Preußler-Straße 28, 5020 Salzburg",
+    "buildingAmenities": [
+      "Volleyball court",
+      "Multiple common rooms",
+      "Music practice room",
+      "Underground parking garage"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Salzburger Studentenwerk)",
+        "primaryUrl": "https://studentenheim.at/europa-kolleg/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.at/europa-kolleg/",
+          "roomsAndPricing": "https://studentenheim.at/europa-kolleg/",
+          "contractAndCancellation": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf",
+          "houseRules": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission for Restplätze (short-term available places)",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup on contract start date from 13:00 via main office.",
+          "guestPolicy": "Written warning for unregistered long-term guests, leading to potential eviction."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (End of Summer Semester: August 31)",
+          "cancellationPenalty": "Early move-out does not reduce fee. €80 penalty for late key return."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years at start of dormitory year",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Proximity to NAWI, Unipark, PH Salzburg, and FH Salzburg in Puch noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: Variable (SEPA direct debit required)",
+          "Mandatory final cleaning (Endreinigung): Assessed upon move-out"
+        ],
+        "rooms": [
+          {
+            "roomType": "Twin Room (Wohnraum mit zwei getrennten Betten)",
+            "monthlyRentEur": 392.0,
+            "depositEur": 784.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Shared with roommate)",
+            "kitchenSetup": "Private kitchenette (Shared with roommate)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          },
+          {
+            "roomType": "Single Room in 2er-WG or 3er-WG",
+            "monthlyRentEur": 500.0,
+            "depositEur": 1000.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 526.0,
+            "depositEur": 1052.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Mozart Studentenheim",
+    "address": "Faberstraße 19, 5020 Salzburg",
+    "buildingAmenities": [
+      "6 Music practice rooms",
+      "5 Common rooms"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Salzburger Studentenwerk)",
+        "primaryUrl": "https://studentenheim.at/mozart/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.at/mozart/",
+          "roomsAndPricing": "https://studentenheim.at/mozart/",
+          "contractAndCancellation": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf",
+          "houseRules": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission for Restplätze (short-term available places)",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup on contract start date from 13:00 via main office.",
+          "guestPolicy": "Written warning for unregistered long-term guests, leading to potential eviction."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (End of Summer Semester: August 31)",
+          "cancellationPenalty": "Early move-out does not reduce fee. €80 penalty for late key return."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years at start of dormitory year",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "Highly attractive to Mozarteum music/vocal students due to 6 practice rooms",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: Variable (SEPA direct debit required)",
+          "Mandatory final cleaning (Endreinigung): Assessed upon move-out"
+        ],
+        "rooms": [
+          {
+            "roomType": "Twin Room (Wohnraum mit zwei getrennten Betten)",
+            "monthlyRentEur": 419.0,
+            "depositEur": 838.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Shared with roommate)",
+            "kitchenSetup": "Private kitchenette (Shared with roommate)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          },
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 561.0,
+            "depositEur": 1122.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          },
+          {
+            "roomType": "Large Single Room",
+            "monthlyRentEur": 613.0,
+            "depositEur": 1226.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Leonardo Studentenheim",
+    "address": "Röcklbrunnstraße 20, 5020 Salzburg",
+    "buildingAmenities": [
+      "Music practice room"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Salzburger Studentenwerk)",
+        "primaryUrl": "https://studentenheim.at/leonardo/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.at/leonardo/",
+          "roomsAndPricing": "https://studentenheim.at/leonardo/",
+          "contractAndCancellation": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf",
+          "houseRules": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission for Restplätze (short-term available places)",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup on contract start date from 13:00 via main office.",
+          "guestPolicy": "Written warning for unregistered long-term guests, leading to potential eviction."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (End of Summer Semester: August 31)",
+          "cancellationPenalty": "Early move-out does not reduce fee. €80 penalty for late key return."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years at start of dormitory year",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Proximity to Mozarteum and Campus Gesellschaftswissenschaften noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: Variable (SEPA direct debit required)",
+          "Mandatory final cleaning (Endreinigung): Assessed upon move-out"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room in 2er-WG",
+            "monthlyRentEur": 523.0,
+            "depositEur": 1046.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 547.0,
+            "depositEur": 1094.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          },
+          {
+            "roomType": "Large Single Room",
+            "monthlyRentEur": 612.0,
+            "depositEur": 1224.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Paris Lodron",
+    "address": "Schallmooser Hauptstraße 36-38, 5020 Salzburg",
+    "buildingAmenities": [
+      "Small, family-style residence (43 beds only)",
+      "Green space/courtyard"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Salzburger Studentenwerk)",
+        "primaryUrl": "https://studentenheim.at/paris-lodron/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.at/paris-lodron/",
+          "roomsAndPricing": "https://studentenheim.at/paris-lodron/",
+          "contractAndCancellation": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf",
+          "houseRules": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission for Restplätze (short-term available places)",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup on contract start date from 13:00 via main office.",
+          "guestPolicy": "Written warning for unregistered long-term guests, leading to potential eviction."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (End of Summer Semester: August 31)",
+          "cancellationPenalty": "Early move-out does not reduce fee. €80 penalty for late key return."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years at start of dormitory year",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Extremely central location, proximity to Mozarteum noted)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: Variable (SEPA direct debit required)",
+          "Mandatory final cleaning (Endreinigung): Assessed upon move-out"
+        ],
+        "rooms": [
+          {
+            "roomType": "Twin Room (Ein Raum mit zwei getrennten Betten)",
+            "monthlyRentEur": 312.0,
+            "depositEur": 624.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Shared with roommate)",
+            "kitchenSetup": "Private kitchenette (Shared with roommate)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          },
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 475.0,
+            "depositEur": 950.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          },
+          {
+            "roomType": "Large Single Room",
+            "monthlyRentEur": 492.0,
+            "depositEur": 984.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "PMU Studentenheim",
+    "address": "Gaswerkgasse 11, 5020 Salzburg",
+    "buildingAmenities": [
+      "5 Common rooms"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Salzburger Studentenwerk)",
+        "primaryUrl": "https://studentenheim.at/pmu/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.at/pmu/",
+          "roomsAndPricing": "https://studentenheim.at/pmu/",
+          "contractAndCancellation": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf",
+          "houseRules": "https://studentenheim.at/wp-content/uploads/2025/03/Heimstatut_LEO.pdf"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission for Restplätze (short-term available places)",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Key pickup on contract start date from 13:00 via main office.",
+          "guestPolicy": "Written warning for unregistered long-term guests, leading to potential eviction."
+        },
+        "contractTerms": {
+          "noticePeriod": "Termination possible at semester end (End of Summer Semester: August 31)",
+          "cancellationPenalty": "Early move-out does not reduce fee. €80 penalty for late key return."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": "Max 30 years at start of dormitory year",
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "Targeted primarily at medical students given proximity to PMU (Paracelsus Medical Private University)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [
+          "Processing fee: Variable (SEPA direct debit required)",
+          "Mandatory final cleaning (Endreinigung): Assessed upon move-out"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 520.0,
+            "depositEur": 1040.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "Stove",
+              "Sink"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Wolf-Dietrich-Heim",
+    "address": "Wolf-Dietrich-Straße 16, 5020 Salzburg",
+    "buildingAmenities": [],
+    "bikeStorage": null,
+    "laundryFacilities": null,
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Katholisches Hochschulwerk)",
+        "primaryUrl": null,
+        "sourceLinks": {
+          "applicationPortal": null,
+          "roomsAndPricing": null,
+          "contractAndCancellation": null,
+          "houseRules": null
+        },
+        "applicationWindow": {
+          "portalOpens": null,
+          "deadline": null,
+          "allocationMethod": null
+        },
+        "logistics": {
+          "acceptsSummerSemester": null,
+          "moveInRules": null,
+          "guestPolicy": null
+        },
+        "contractTerms": {
+          "noticePeriod": null,
+          "cancellationPenalty": null
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": null,
+          "genderRestriction": null
+        },
+        "specialNotes": [
+          "Dormitory data severely limited or unlisted in provided public databases."
+        ],
+        "mandatoryExtraFees": [],
+        "rooms": []
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Thomas-Michels-Heim",
+    "address": "Wolf-Dietrich-Straße 37, 5020 Salzburg",
+    "buildingAmenities": [],
+    "bikeStorage": null,
+    "laundryFacilities": null,
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Katholisches Hochschulwerk)",
+        "primaryUrl": null,
+        "sourceLinks": {
+          "applicationPortal": null,
+          "roomsAndPricing": null,
+          "contractAndCancellation": null,
+          "houseRules": null
+        },
+        "applicationWindow": {
+          "portalOpens": null,
+          "deadline": null,
+          "allocationMethod": null
+        },
+        "logistics": {
+          "acceptsSummerSemester": null,
+          "moveInRules": null,
+          "guestPolicy": null
+        },
+        "contractTerms": {
+          "noticePeriod": null,
+          "cancellationPenalty": null
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": null,
+          "genderRestriction": null
+        },
+        "specialNotes": [
+          "Dormitory data severely limited or unlisted in provided public databases."
+        ],
+        "mandatoryExtraFees": [],
+        "rooms": []
+      }
+    ]
+  },
+  {
+    "dormitoryName": "@HOME Studentenwohnheim",
+    "address": "Gaswerkgasse 24, 5020 Salzburg",
+    "buildingAmenities": [
+      "Two common rooms",
+      "Terrace with courtyard view"
+    ],
+    "bikeStorage": "Bicycle storage room with space for 56 bicycles",
+    "laundryFacilities": "Washing machines and dryers available (payment via bank card)",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Private)",
+        "primaryUrl": "https://www.studentenwohnheim-salzburg.at/",
+        "sourceLinks": {
+          "applicationPortal": "https://www.studentenwohnheim-salzburg.at/verfuegbarkeit/",
+          "roomsAndPricing": "https://www.studentenwohnheim-salzburg.at/appartements/",
+          "contractAndCancellation": "https://www.studentenwohnheim-salzburg.at/faq/",
+          "houseRules": "https://www.studentenwohnheim-salzburg.at/faq/"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission via waiting list",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Building access 24/7 via mobile app key system.",
+          "guestPolicy": null
+        },
+        "contractTerms": {
+          "noticePeriod": "Subject to private landlord standard Austrian rental law",
+          "cancellationPenalty": "Loss of booking fee (€95)"
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Foreign students must pre-pay 2 additional months' rent upon booking.",
+          "Additional fees can be charged if a resident consumes disproportionately high energy/water."
+        ],
+        "mandatoryExtraFees": [
+          "Booking fee: €95.00",
+          "General damage flat rate (Allg. Schadenspauschale ASP): €80.00",
+          "Mandatory final cleaning (Endreinigungspauschale): €120.00"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Apartment (EZ Strasse/Hof/Dachgeschoss)",
+            "monthlyRentEur": 750.0,
+            "depositEur": 1500.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Fiber optic high-speed internet and Cable TV in all rooms",
+            "cleaningServices": "Apartments must be cleaned by residents (Regular cleaning services can be booked extra)",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator"
+            ]
+          },
+          {
+            "roomType": "Double Apartment (DZ Dachgeschoss)",
+            "monthlyRentEur": 900.0,
+            "depositEur": 1800.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Fiber optic high-speed internet and Cable TV in all rooms",
+            "cleaningServices": "Apartments must be cleaned by residents",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Salzburger Lehrerhaus",
+    "address": "Hegigasse 9, 5020 Salzburg",
+    "buildingAmenities": [
+      "Two fitness rooms",
+      "Library",
+      "Common rooms",
+      "Surrounding 1.6-hectare park",
+      "Free parking lots"
+    ],
+    "bikeStorage": "Two dedicated bicycle garages",
+    "laundryFacilities": "Communal washing machines and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Independent)",
+        "primaryUrl": "https://www.salzburger-lehrerhaus.at/de/",
+        "sourceLinks": {
+          "applicationPortal": "https://www.salzburger-lehrerhaus.at/de/zimmer.html",
+          "roomsAndPricing": "https://www.salzburger-lehrerhaus.at/de/zimmer.html",
+          "contractAndCancellation": "https://www.oeh-salzburg.at/media/files/heimbroschuere_ansicht.pdf",
+          "houseRules": "https://www.salzburger-lehrerhaus.at/de/zimmer.html"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Office hours: Mon, Tue, Fri 10:00-13:00, Thu 13:00-16:00. Closed Wednesday.",
+          "guestPolicy": "Short-term guests allowed upon prior registration and payment of a €5 nightly fee."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard contract aligns with the Salzburg school year.",
+          "cancellationPenalty": "Subject to standard cancellation penalties."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Tertiary students and higher school pupils",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "Internet/WLAN access requires an obligatory additional fee."
+        ],
+        "mandatoryExtraFees": [
+          "Obligatory Internet/WLAN fee: €90.00 per school year"
+        ],
+        "rooms": [
+          {
+            "roomType": "Twin Room (Platz im Zweibettzimmer)",
+            "monthlyRentEur": 334.0,
+            "depositEur": 200.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi access (requires €90 annual surcharge)",
+            "cleaningServices": "Rooms are cleaned once per week",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Roll container/cabinet"
+            ]
+          },
+          {
+            "roomType": "Single Room in 4-Person WG",
+            "monthlyRentEur": 402.0,
+            "depositEur": 200.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi access (requires €90 annual surcharge)",
+            "cleaningServices": "Rooms are cleaned once per week",
+            "bathroomSetup": "Shared between WG flatmates",
+            "kitchenSetup": "Shared flat kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Roll container/cabinet"
+            ]
+          },
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 460.0,
+            "depositEur": 200.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi access (requires €90 annual surcharge)",
+            "cleaningServices": "Rooms are cleaned once per week",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Roll container/cabinet"
+            ]
+          },
+          {
+            "roomType": "Large Single Room (Mansarde)",
+            "monthlyRentEur": 482.0,
+            "depositEur": 200.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi access (requires €90 annual surcharge)",
+            "cleaningServices": "Rooms are cleaned once per week",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Roll container/cabinet"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dormitoryName": "Dr. Franz Rehrl Studentenheim",
+    "address": "Petersbrunnstraße 14, 5020 Salzburg",
+    "buildingAmenities": [
+      "In-house student bar (opened Wednesdays and Fridays for networking)"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "Communal washing machines and dryers available",
+    "photos": [
+      "https://www.rehrlheim.at/wp-content/uploads/2017/09/bude_aussn01.jpg"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Independent)",
+        "primaryUrl": "https://www.rehrlheim.at/",
+        "sourceLinks": {
+          "applicationPortal": "https://www.rehrlheim.at/kontakt/",
+          "roomsAndPricing": "https://www.rehrlheim.at/66-2/",
+          "contractAndCancellation": "https://www.rehrlheim.at/wp-content/uploads/2022/09/Benuetzungsvertrag-2022.pdf",
+          "houseRules": "https://www.rehrlheim.at/faq/"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Check-in by appointment during standard business hours.",
+          "guestPolicy": "Short-term guests require registration; long-term unauthorized stays are a breach of contract."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard contract runs for one academic year (until June 30). Terminations follow statutory Dormitory Act provisions.",
+          "cancellationPenalty": "Subject to standard cancellation penalties based on notice timing."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None (Extremely close to Unipark, NAWI, and GesWi)",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "Highly competitive due to extreme proximity to the Unipark Nonntal (5-minute walk)."
+        ],
+        "mandatoryExtraFees": [
+          "Mandatory final cleaning (Endreinigung): €30.00 (Deducted from deposit upon exit)"
+        ],
+        "rooms": [
+          {
+            "roomType": "Category 2 Single Room",
+            "monthlyRentEur": 325.0,
+            "depositEur": 650.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Free Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Nasszelle)",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "TV connection"
+            ]
+          },
+          {
+            "roomType": "Category 1 Single Room",
+            "monthlyRentEur": 350.0,
+            "depositEur": 700.0,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Free Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite (Nasszelle)",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator",
+              "TV connection"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
