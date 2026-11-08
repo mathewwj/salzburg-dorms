@@ -100,7 +100,7 @@ export interface POIsData {
   supermarkets: SupermarketPOI[];
 }
 
-export type RoomCategory = 'single' | 'wg' | 'studio' | 'twin';
+export type RoomCategory = 'single' | 'shared';
 export type CommuteMode = 'bike' | 'transit' | 'walk';
 
 export interface FilterState {

@@ -85,15 +85,16 @@ export function getPriceTier(price: number | null): PriceTier {
 
 export function classifyRoomCategory(roomType: string): RoomCategory {
   const lower = roomType.toLowerCase();
-  if (lower.includes('twin') || lower.includes('zweibett') || lower.includes('double')) {
-    return 'twin';
+  // Shared room (two or more people sharing the same bedroom)
+  if (
+    lower.includes('twin') ||
+    lower.includes('zweibett') ||
+    lower.includes('double') ||
+    lower.includes('platz im')
+  ) {
+    return 'shared';
   }
-  if (lower.includes('wg') || lower.includes('living community')) {
-    return 'wg';
-  }
-  if (lower.includes('garconniere') || lower.includes('apartment')) {
-    return 'studio';
-  }
+  // Single room (single bedroom, including single rooms in WG / apartments / studios)
   return 'single';
 }
 

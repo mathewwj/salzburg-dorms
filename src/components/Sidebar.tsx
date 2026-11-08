@@ -30,11 +30,9 @@ interface SidebarProps {
   onSelectDorm: (dormName: string) => void;
 }
 
-const ROOM_CATEGORY_OPTIONS: { id: RoomCategory; label: string }[] = [
-  { id: 'single', label: 'Single Room' },
-  { id: 'wg', label: 'Single in WG' },
-  { id: 'studio', label: 'Studio / Apt' },
-  { id: 'twin', label: 'Twin Room' },
+const ROOM_CATEGORY_OPTIONS: { id: RoomCategory; label: string; description: string }[] = [
+  { id: 'single', label: 'Single (1 person)', description: 'Private bedroom / WG / Studio' },
+  { id: 'shared', label: 'Shared (2+ people)', description: 'Twin / double bedroom' },
 ];
 
 const AMENITY_OPTIONS: { id: string; label: string }[] = [
@@ -253,11 +251,14 @@ export default function Sidebar({
           </select>
         </div>
 
-        {/* Room Type Chips */}
+        {/* Room Type Chips (Single vs Shared) */}
         <div className="space-y-2">
-          <label className="block text-xs font-semibold text-slate-300">
-            Room Type
-          </label>
+          <div className="flex items-center justify-between">
+            <label className="block text-xs font-semibold text-slate-300">
+              Room Occupancy
+            </label>
+            <span className="text-[10px] text-slate-500">1 vs 2+ people</span>
+          </div>
           <div className="grid grid-cols-2 gap-1.5">
             {ROOM_CATEGORY_OPTIONS.map((opt) => {
               const active = filters.roomCategories.includes(opt.id);
@@ -266,13 +267,18 @@ export default function Sidebar({
                   key={opt.id}
                   type="button"
                   onClick={() => toggleRoomCategory(opt.id)}
-                  className={`px-2.5 py-1.5 rounded-lg text-xs font-medium border text-left transition-colors cursor-pointer ${
+                  className={`px-3 py-2 rounded-lg text-xs font-medium border text-left transition-colors cursor-pointer ${
                     active
-                      ? 'bg-blue-600/20 border-blue-500 text-blue-300'
+                      ? 'bg-blue-600/20 border-blue-500 text-blue-300 shadow-sm'
                       : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  {opt.label}
+                  <div className="font-semibold text-xs leading-tight">
+                    {opt.label}
+                  </div>
+                  <div className="text-[10px] text-slate-500 mt-0.5">
+                    {opt.description}
+                  </div>
                 </button>
               );
             })}
