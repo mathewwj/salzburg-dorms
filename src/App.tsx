@@ -13,9 +13,9 @@ const dorms: Dormitory[] = rawDorms as Dormitory[]
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-900 flex">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex">
       {/* Fixed Left Sidebar (Filter Placeholder) */}
-      <aside className="w-72 shrink-0 bg-white border-r border-slate-200 h-screen sticky top-0 flex flex-col justify-between p-6">
+      <aside className="w-72 shrink-0 bg-slate-900 border-r border-slate-800 h-screen sticky top-0 flex flex-col justify-between p-6">
         <div className="space-y-6">
           {/* Logo & App Title */}
           <div className="flex items-center gap-3">
@@ -23,14 +23,14 @@ export default function App() {
               <Building2 className="w-6 h-6" />
             </div>
             <div>
-              <h1 className="font-bold text-lg leading-tight tracking-tight text-slate-900">
+              <h1 className="font-bold text-lg leading-tight tracking-tight text-white">
                 Salzburg Dorms
               </h1>
-              <p className="text-xs text-slate-500">Student Housing Finder</p>
+              <p className="text-xs text-slate-400">Student Housing Finder</p>
             </div>
           </div>
 
-          <hr className="border-slate-100" />
+          <hr className="border-slate-800" />
 
           {/* Filter Placeholders */}
           <div className="space-y-5">
@@ -39,31 +39,31 @@ export default function App() {
                 <SlidersHorizontal className="w-3.5 h-3.5" />
                 Filters
               </span>
-              <span className="px-2 py-0.5 rounded text-[10px] bg-slate-100 text-slate-500 font-medium">
+              <span className="px-2 py-0.5 rounded text-[10px] bg-slate-800 text-slate-400 border border-slate-700/60 font-medium">
                 Phase 1
               </span>
             </div>
 
             {/* Search Input Placeholder */}
             <div className="space-y-1.5">
-              <label className="text-xs font-medium text-slate-600">Search Residence</label>
+              <label className="text-xs font-medium text-slate-300">Search Residence</label>
               <div className="relative">
-                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <Search className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
                 <input
                   type="text"
                   placeholder="e.g. Glockengasse..."
                   disabled
-                  className="w-full pl-9 pr-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-lg text-slate-400 cursor-not-allowed"
+                  className="w-full pl-9 pr-3 py-2 text-xs bg-slate-800/80 border border-slate-700/80 rounded-lg text-slate-500 cursor-not-allowed placeholder:text-slate-600"
                 />
               </div>
             </div>
 
             {/* Provider Filter Placeholder */}
             <div className="space-y-1.5">
-              <label className="text-xs font-medium text-slate-600">Provider</label>
+              <label className="text-xs font-medium text-slate-300">Provider</label>
               <select
                 disabled
-                className="w-full px-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-lg text-slate-400 cursor-not-allowed"
+                className="w-full px-3 py-2 text-xs bg-slate-800/80 border border-slate-700/80 rounded-lg text-slate-500 cursor-not-allowed"
               >
                 <option>All Providers (OeAD, Home4Students...)</option>
               </select>
@@ -72,23 +72,23 @@ export default function App() {
             {/* Price Range Placeholder */}
             <div className="space-y-2">
               <div className="flex justify-between text-xs">
-                <span className="font-medium text-slate-600">Max Monthly Rent</span>
+                <span className="font-medium text-slate-300">Max Monthly Rent</span>
                 <span className="text-slate-400">€700</span>
               </div>
               <input
                 type="range"
                 disabled
-                className="w-full accent-blue-600 cursor-not-allowed opacity-50"
+                className="w-full accent-blue-500 cursor-not-allowed opacity-40"
               />
             </div>
 
             {/* Amenities Checklist Placeholder */}
             <div className="space-y-2">
-              <label className="text-xs font-medium text-slate-600">Popular Amenities</label>
+              <label className="text-xs font-medium text-slate-300">Popular Amenities</label>
               <div className="space-y-1.5">
                 {['Gym', 'Study rooms', 'Music practice', 'Bicycle storage'].map((amenity) => (
-                  <label key={amenity} className="flex items-center gap-2 text-xs text-slate-400 cursor-not-allowed">
-                    <input type="checkbox" disabled className="rounded border-slate-300 text-blue-600" />
+                  <label key={amenity} className="flex items-center gap-2 text-xs text-slate-500 cursor-not-allowed">
+                    <input type="checkbox" disabled className="rounded border-slate-700 bg-slate-800 text-blue-600" />
                     <span>{amenity}</span>
                   </label>
                 ))}
@@ -98,9 +98,9 @@ export default function App() {
         </div>
 
         {/* Sidebar Footer */}
-        <div className="pt-4 border-t border-slate-100 text-xs text-slate-400 flex items-center justify-between">
+        <div className="pt-4 border-t border-slate-800 text-xs text-slate-400 flex items-center justify-between">
           <span>{dorms.length} dormitories loaded</span>
-          <span className="inline-flex items-center gap-1 text-emerald-600 font-medium">
+          <span className="inline-flex items-center gap-1 text-emerald-400 font-medium">
             <CheckCircle2 className="w-3.5 h-3.5" />
             Live Data
           </span>
@@ -113,14 +113,14 @@ export default function App() {
         <header className="mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
-              <h2 className="text-2xl font-bold tracking-tight text-slate-900">
+              <h2 className="text-2xl font-bold tracking-tight text-white">
                 Student Housing Comparison
               </h2>
-              <p className="text-sm text-slate-500 mt-1">
+              <p className="text-sm text-slate-400 mt-1">
                 Explore and compare dormitories, prices, and amenities in Salzburg.
               </p>
             </div>
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/60 text-blue-700 text-xs font-medium self-start sm:self-auto">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-950/70 border border-blue-800/60 text-blue-300 text-xs font-medium self-start sm:self-auto">
               <Sparkles className="w-3.5 h-3.5" />
               <span>{dorms.length} listings available</span>
             </div>
@@ -138,16 +138,16 @@ export default function App() {
             return (
               <div
                 key={`${dorm.dormitoryName}-${index}`}
-                className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 border border-slate-200/80 p-6 flex flex-col justify-between"
+                className="bg-slate-900 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 border border-slate-800 p-6 flex flex-col justify-between"
               >
                 <div>
                   {/* Card Header */}
                   <div className="mb-3">
-                    <h3 className="font-semibold text-lg text-slate-900 leading-snug">
+                    <h3 className="font-semibold text-lg text-white leading-snug">
                       {dorm.dormitoryName}
                     </h3>
-                    <div className="flex items-center gap-1.5 text-xs text-slate-500 mt-1.5">
-                      <MapPin className="w-3.5 h-3.5 shrink-0 text-slate-400" />
+                    <div className="flex items-center gap-1.5 text-xs text-slate-400 mt-1.5">
+                      <MapPin className="w-3.5 h-3.5 shrink-0 text-slate-500" />
                       <span className="truncate">{dorm.address}</span>
                     </div>
                   </div>
@@ -162,13 +162,13 @@ export default function App() {
                         dorm.buildingAmenities.map((amenity, aIdx) => (
                           <span
                             key={aIdx}
-                            className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 text-slate-700 border border-slate-200/60"
+                            className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-slate-200 border border-slate-700/60"
                           >
                             {amenity}
                           </span>
                         ))
                       ) : (
-                        <span className="text-xs text-slate-400 italic">
+                        <span className="text-xs text-slate-500 italic">
                           No amenities listed
                         </span>
                       )}
@@ -177,16 +177,16 @@ export default function App() {
                 </div>
 
                 {/* Card Footer: Provider & Monthly Rent */}
-                <div className="mt-6 pt-4 border-t border-slate-100 flex items-end justify-between">
+                <div className="mt-6 pt-4 border-t border-slate-800/80 flex items-end justify-between">
                   <div className="min-w-0 pr-2">
                     <span className="block text-[11px] font-semibold uppercase tracking-wider text-slate-400">
                       Provider
                     </span>
-                    <span className="text-sm font-medium text-slate-800 truncate block mt-0.5">
+                    <span className="text-sm font-medium text-slate-200 truncate block mt-0.5">
                       {provider}
                     </span>
                     {firstRoom?.roomType && (
-                      <span className="text-xs text-slate-500 block truncate">
+                      <span className="text-xs text-slate-400 block truncate">
                         {firstRoom.roomType}
                       </span>
                     )}
@@ -199,13 +199,13 @@ export default function App() {
                     <div className="flex items-baseline justify-end gap-0.5 mt-0.5">
                       {monthlyRent !== undefined ? (
                         <>
-                          <span className="text-2xl font-bold tracking-tight text-slate-900">
+                          <span className="text-2xl font-bold tracking-tight text-white">
                             €{monthlyRent}
                           </span>
-                          <span className="text-xs text-slate-500 font-medium">/mo</span>
+                          <span className="text-xs text-slate-400 font-medium">/mo</span>
                         </>
                       ) : (
-                        <span className="text-sm font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded">
+                        <span className="text-sm font-semibold text-slate-400 bg-slate-800 border border-slate-700/60 px-2 py-0.5 rounded">
                           On request
                         </span>
                       )}
