@@ -224,17 +224,6 @@ export default function DormMap({
 
   return (
     <div className="flex flex-1 h-screen min-w-0 bg-slate-950 overflow-hidden">
-      {/* Left-Hand Side Detail Panel (summoned when a dorm is clicked) */}
-      {selectedEvaluated && (
-        <DormPopup
-          dorm={selectedEvaluated.dorm}
-          effectiveMinPrice={selectedEvaluated.effectiveMinPrice}
-          priceTier={selectedEvaluated.priceTier}
-          filters={filters}
-          onClose={() => onSelectDorm(null)}
-        />
-      )}
-
       {/* Map Canvas */}
       <div className="relative flex-1 h-screen min-w-0">
         <MapContainer
@@ -306,7 +295,7 @@ export default function DormMap({
         </MapContainer>
 
         {/* Floating Legend Overlay */}
-        <div className="absolute bottom-6 right-4 z-[400] bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-xl p-3.5 shadow-xl text-xs text-slate-200 space-y-2.5 max-w-xs pointer-events-auto">
+        <div className="absolute bottom-6 left-4 z-[400] bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-xl p-3.5 shadow-xl text-xs text-slate-200 space-y-2.5 max-w-xs pointer-events-auto">
           <div className="font-semibold text-[11px] uppercase tracking-wider text-slate-400">
             Dorm Monthly Rent Color
           </div>
@@ -360,6 +349,17 @@ export default function DormMap({
           </div>
         </div>
       </div>
+
+      {/* Right-Hand Side Detail Panel (summoned when a dorm is clicked) */}
+      {selectedEvaluated && (
+        <DormPopup
+          dorm={selectedEvaluated.dorm}
+          effectiveMinPrice={selectedEvaluated.effectiveMinPrice}
+          priceTier={selectedEvaluated.priceTier}
+          filters={filters}
+          onClose={() => onSelectDorm(null)}
+        />
+      )}
     </div>
   );
 }

@@ -43,7 +43,7 @@ export default function DormPopup({
   const stationCommute = dorm.commute?.trainStation;
 
   return (
-    <aside className="w-[410px] shrink-0 h-screen bg-slate-900/95 backdrop-blur-md border-r border-slate-800 flex flex-col z-[500] shadow-2xl text-slate-100 select-text">
+    <aside className="w-[410px] shrink-0 h-screen bg-slate-900/95 backdrop-blur-md border-l border-slate-800 flex flex-col z-[500] shadow-2xl text-slate-100 select-text">
       {/* Sticky Panel Header */}
       <div className="p-4 border-b border-slate-800 bg-slate-900 flex items-start justify-between gap-3">
         <div className="min-w-0">
