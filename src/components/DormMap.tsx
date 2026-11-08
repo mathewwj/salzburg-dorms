@@ -223,17 +223,16 @@ export default function DormMap({
   return (
     <div className="relative flex-1 h-screen min-w-0 bg-slate-950">
       <MapContainer
-        center={[47.805, 13.046]}
-        zoom={13}
+        center={[47.802, 13.048]}
+        zoom={14}
         className="w-full h-full z-0"
         zoomControl={true}
       >
-        {/* Dark Matter Basemap */}
+        {/* OpenStreetMap Basemap (Dark-styled via CSS on .leaflet-tile-pane) */}
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-          subdomains="abcd"
-          maxZoom={20}
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          maxZoom={19}
         />
 
         <MapSelectionController

@@ -7,6 +7,10 @@
   font-family: inherit;
 }
 
+.leaflet-tile-pane {
+  filter: invert(100%) hue-rotate(180deg) saturate(35%) brightness(88%) contrast(95%);
+}
+
 .leaflet-popup-content-wrapper {
   background-color: #0f172a !important;
   color: #f1f5f9 !important;
