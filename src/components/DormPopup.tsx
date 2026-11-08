@@ -253,19 +253,20 @@ export default function DormPopup({
                       const isMatch = roomMatchesFilters(room, filters);
                       const privBath = isPrivateBathroom(room.bathroomSetup);
                       const privKitch = isPrivateKitchen(room.kitchenSetup);
+                      const roomLink =
+                        (typeof room.url === 'string' && room.url) ||
+                        booking.sourceLinks?.roomsAndPricing ||
+                        booking.sourceLinks?.applicationPortal ||
+                        booking.primaryUrl;
 
-                      return (
-                        <div
-                          key={rIdx}
-                          className={`rounded-lg p-2.5 border flex items-start justify-between gap-2.5 ${
-                            isMatch
-                              ? 'bg-slate-900/90 border-slate-800'
-                              : 'bg-slate-900/30 border-slate-800/40 opacity-50'
-                          }`}
-                        >
+                      const cardContent = (
+                        <>
                           <div className="min-w-0 space-y-1">
-                            <div className="text-xs font-semibold text-slate-100">
-                              {room.roomType}
+                            <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-100 group-hover:text-blue-300 transition-colors">
+                              <span className="truncate">{room.roomType}</span>
+                              {roomLink && (
+                                <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-blue-400 shrink-0 transition-colors" />
+                              )}
                             </div>
                             <div className="flex flex-wrap items-center gap-2 text-[11px] text-slate-400">
                               <span className="inline-flex items-center gap-1">
@@ -285,7 +286,7 @@ export default function DormPopup({
                           </div>
 
                           <div className="text-right shrink-0">
-                            <div className="text-sm font-bold text-white">
+                            <div className="text-sm font-bold text-white group-hover:text-blue-200 transition-colors">
                               €{room.monthlyRentEur}
                               <span className="text-[10px] font-normal text-slate-400">/mo</span>
                             </div>
@@ -295,6 +296,38 @@ export default function DormPopup({
                               </div>
                             )}
                           </div>
+                        </>
+                      );
+
+                      if (roomLink) {
+                        return (
+                          <a
+                            key={rIdx}
+                            href={roomLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={`Open ${room.roomType} details / pricing on provider website`}
+                            className={`group block rounded-lg p-2.5 border flex items-start justify-between gap-2.5 transition-all cursor-pointer ${
+                              isMatch
+                                ? 'bg-slate-900/90 border-slate-800 hover:border-blue-500/80 hover:bg-slate-800/80 hover:shadow-md'
+                                : 'bg-slate-900/30 border-slate-800/40 hover:border-slate-700 opacity-50 hover:opacity-80'
+                            }`}
+                          >
+                            {cardContent}
+                          </a>
+                        );
+                      }
+
+                      return (
+                        <div
+                          key={rIdx}
+                          className={`rounded-lg p-2.5 border flex items-start justify-between gap-2.5 ${
+                            isMatch
+                              ? 'bg-slate-900/90 border-slate-800'
+                              : 'bg-slate-900/30 border-slate-800/40 opacity-50'
+                          }`}
+                        >
+                          {cardContent}
                         </div>
                       );
                     })}
