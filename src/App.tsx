@@ -11,7 +11,10 @@ const pois: POIsData = rawPois as POIsData;
 
 export default function App() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
-  const [selectedDormName, setSelectedDormName] = useState<string | null>(null);
+  const [selectedDormName, setSelectedDormName] = useState<string | null>(() => {
+    const param = new URLSearchParams(window.location.search).get('dorm');
+    return param || null;
+  });
 
   const evaluatedDorms = useMemo(
     () => dorms.map((dorm) => evaluateDorm(dorm, filters)),

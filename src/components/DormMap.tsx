@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo } from 'react';
 import L from 'leaflet';
 import {
   MapContainer,
@@ -6,6 +6,7 @@ import {
   Popup,
   TileLayer,
   useMap,
+  useMapEvents,
 } from 'react-leaflet';
 import type {
   DestinationPOI,
@@ -28,29 +29,32 @@ interface DormMapProps {
   onSelectDorm: (dormName: string | null) => void;
 }
 
-// Helper component to fly to a selected dorm and open its popup
+// Helper component to fly to a selected dorm and handle map size invalidation when panel toggles
 function MapSelectionController({
   selectedDorm,
-  markerRefs,
 }: {
   selectedDorm: Dormitory | undefined;
-  markerRefs: React.MutableRefObject<Record<string, L.Marker | null>>;
 }) {
   const map = useMap();
 
   useEffect(() => {
-    if (!selectedDorm?.coordinates) return;
-    const { lat, lng } = selectedDorm.coordinates;
-    map.flyTo([lat, lng], Math.max(map.getZoom(), 15), {
-      duration: 0.65,
-    });
-    const marker = markerRefs.current[selectedDorm.dormitoryName];
-    if (marker) {
-      setTimeout(() => {
-        marker.openPopup();
-      }, 300);
-    }
-  }, [selectedDorm, map, markerRefs]);
+    // Allow flexbox layout to settle when the left detail panel opens/closes
+    const timer = setTimeout(() => {
+      map.invalidateSize({ pan: false });
+      if (selectedDorm?.coordinates) {
+        const { lat, lng } = selectedDorm.coordinates;
+        map.panTo([lat, lng], { animate: true, duration: 0.4 });
+      }
+    }, 80);
+
+    return () => clearTimeout(timer);
+  }, [selectedDorm, map]);
+
+  useMapEvents({
+    click: () => {
+      // Optional: keep panel open or allow map drag freely
+    },
+  });
 
   return null;
 }
@@ -59,7 +63,7 @@ function createDormIcon(item: EvaluatedDorm, isSelected: boolean): L.DivIcon {
   const { effectiveMinPrice, priceTier } = item;
   const priceLabel = effectiveMinPrice !== null ? `€${effectiveMinPrice}` : 'N/A';
   const scaleStyle = isSelected
-    ? 'transform: scale(1.15); box-shadow: 0 0 0 3px rgba(255,255,255,0.9), 0 8px 20px rgba(0,0,0,0.75); z-index: 1000;'
+    ? 'transform: scale(1.22); box-shadow: 0 0 0 3px #ffffff, 0 0 18px rgba(59,130,246,0.9), 0 8px 20px rgba(0,0,0,0.85); z-index: 1000;'
     : 'box-shadow: 0 4px 10px rgba(0,0,0,0.6);';
 
   const html = `
@@ -77,6 +81,7 @@ function createDormIcon(item: EvaluatedDorm, isSelected: boolean): L.DivIcon {
       line-height: 1;
       white-space: nowrap;
       transition: transform 0.15s ease;
+      cursor: pointer;
       ${scaleStyle}
     ">
       ${priceLabel}
@@ -88,7 +93,6 @@ function createDormIcon(item: EvaluatedDorm, isSelected: boolean): L.DivIcon {
     className: 'custom-dorm-marker',
     iconSize: [52, 24],
     iconAnchor: [26, 12],
-    popupAnchor: [0, -14],
   });
 }
 
@@ -208,155 +212,152 @@ export default function DormMap({
   selectedDormName,
   onSelectDorm,
 }: DormMapProps) {
-  const markerRefs = useRef<Record<string, L.Marker | null>>({});
-
   const visibleDorms = useMemo(
     () => evaluatedDorms.filter((d) => d.matches && d.dorm.coordinates),
     [evaluatedDorms]
   );
 
-  const selectedDorm = useMemo(
-    () => visibleDorms.find((d) => d.dorm.dormitoryName === selectedDormName)?.dorm,
-    [visibleDorms, selectedDormName]
+  const selectedEvaluated = useMemo(
+    () => evaluatedDorms.find((d) => d.dorm.dormitoryName === selectedDormName),
+    [evaluatedDorms, selectedDormName]
   );
 
   return (
-    <div className="relative flex-1 h-screen min-w-0 bg-slate-950">
-      <MapContainer
-        center={[47.802, 13.048]}
-        zoom={14}
-        className="w-full h-full z-0"
-        zoomControl={true}
-      >
-        {/* OpenStreetMap Basemap (Dark-styled via CSS on .leaflet-tile-pane) */}
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-          maxZoom={19}
+    <div className="flex flex-1 h-screen min-w-0 bg-slate-950 overflow-hidden">
+      {/* Left-Hand Side Detail Panel (summoned when a dorm is clicked) */}
+      {selectedEvaluated && (
+        <DormPopup
+          dorm={selectedEvaluated.dorm}
+          effectiveMinPrice={selectedEvaluated.effectiveMinPrice}
+          priceTier={selectedEvaluated.priceTier}
+          filters={filters}
+          onClose={() => onSelectDorm(null)}
         />
+      )}
 
-        <MapSelectionController
-          selectedDorm={selectedDorm}
-          markerRefs={markerRefs}
-        />
+      {/* Map Canvas */}
+      <div className="relative flex-1 h-screen min-w-0">
+        <MapContainer
+          center={[47.802, 13.048]}
+          zoom={14}
+          className="w-full h-full z-0"
+          zoomControl={true}
+        >
+          {/* OpenStreetMap Basemap (Dark-styled via CSS on .leaflet-tile-pane) */}
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+            maxZoom={19}
+          />
 
-        {/* Background Non-Clickable Supermarkets Layer */}
-        {filters.showSupermarkets &&
-          supermarkets.map((sm) => (
+          <MapSelectionController selectedDorm={selectedEvaluated?.dorm} />
+
+          {/* Background Non-Clickable Supermarkets Layer */}
+          {filters.showSupermarkets &&
+            supermarkets.map((sm) => (
+              <Marker
+                key={sm.id}
+                position={[sm.lat, sm.lng]}
+                icon={createSupermarketIcon(sm.brand)}
+                interactive={false}
+                keyboard={false}
+                zIndexOffset={-500}
+              />
+            ))}
+
+          {/* Key Destination Markers (Faculty & Main Train Station) */}
+          {destinations.map((dest) => (
             <Marker
-              key={sm.id}
-              position={[sm.lat, sm.lng]}
-              icon={createSupermarketIcon(sm.brand)}
-              interactive={false}
-              keyboard={false}
-              zIndexOffset={-500}
-            />
-          ))}
-
-        {/* Key Destination Markers (Faculty & Main Train Station) */}
-        {destinations.map((dest) => (
-          <Marker
-            key={dest.id}
-            position={[dest.lat, dest.lng]}
-            icon={createDestinationIcon(dest)}
-            zIndexOffset={800}
-          >
-            <Popup>
-              <div className="p-3.5 text-slate-100 space-y-1">
-                <div className="text-[10px] font-semibold uppercase tracking-wider text-indigo-400">
-                  {dest.category === 'faculty' ? 'University Faculty' : 'Transit Hub'}
-                </div>
-                <div className="text-sm font-bold text-white">{dest.name}</div>
-                <div className="text-xs text-slate-400">{dest.address}</div>
-              </div>
-            </Popup>
-          </Marker>
-        ))}
-
-        {/* Interactive Price-Colored Dormitory Markers */}
-        {visibleDorms.map((item) => {
-          const { dorm, effectiveMinPrice, priceTier } = item;
-          const coords = dorm.coordinates!;
-          const isSelected = dorm.dormitoryName === selectedDormName;
-
-          return (
-            <Marker
-              key={dorm.dormitoryName}
-              position={[coords.lat, coords.lng]}
-              icon={createDormIcon(item, isSelected)}
-              zIndexOffset={isSelected ? 1000 : 200}
-              ref={(ref) => {
-                markerRefs.current[dorm.dormitoryName] = ref;
-              }}
-              eventHandlers={{
-                click: () => onSelectDorm(dorm.dormitoryName),
-              }}
+              key={dest.id}
+              position={[dest.lat, dest.lng]}
+              icon={createDestinationIcon(dest)}
+              zIndexOffset={800}
             >
               <Popup>
-                <DormPopup
-                  dorm={dorm}
-                  effectiveMinPrice={effectiveMinPrice}
-                  priceTier={priceTier}
-                  filters={filters}
-                />
+                <div className="p-3.5 text-slate-100 space-y-1">
+                  <div className="text-[10px] font-semibold uppercase tracking-wider text-indigo-400">
+                    {dest.category === 'faculty' ? 'University Faculty' : 'Transit Hub'}
+                  </div>
+                  <div className="text-sm font-bold text-white">{dest.name}</div>
+                  <div className="text-xs text-slate-400">{dest.address}</div>
+                </div>
               </Popup>
             </Marker>
-          );
-        })}
-      </MapContainer>
+          ))}
 
-      {/* Floating Legend Overlay */}
-      <div className="absolute bottom-6 right-4 z-[400] bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-xl p-3.5 shadow-xl text-xs text-slate-200 space-y-2.5 max-w-xs pointer-events-auto">
-        <div className="font-semibold text-[11px] uppercase tracking-wider text-slate-400">
-          Dorm Monthly Rent Color
-        </div>
-        <div className="grid grid-cols-2 gap-x-4 gap-y-1.5">
-          {Object.entries(PRICE_TIERS).map(([key, tier]) => (
-            <div key={key} className="flex items-center gap-2">
-              <span
-                className="w-3 h-3 rounded-full shrink-0 border"
-                style={{
-                  backgroundColor: tier.bgHex,
-                  borderColor: tier.borderHex,
+          {/* Interactive Price-Colored Dormitory Markers */}
+          {visibleDorms.map((item) => {
+            const { dorm } = item;
+            const coords = dorm.coordinates!;
+            const isSelected = dorm.dormitoryName === selectedDormName;
+
+            return (
+              <Marker
+                key={dorm.dormitoryName}
+                position={[coords.lat, coords.lng]}
+                icon={createDormIcon(item, isSelected)}
+                zIndexOffset={isSelected ? 1000 : 200}
+                eventHandlers={{
+                  click: () => onSelectDorm(dorm.dormitoryName),
                 }}
               />
-              <span className="text-[11px] text-slate-300">{tier.rangeText}</span>
-            </div>
-          ))}
-        </div>
+            );
+          })}
+        </MapContainer>
 
-        <div className="pt-2 border-t border-slate-800 space-y-1.5">
+        {/* Floating Legend Overlay */}
+        <div className="absolute bottom-6 right-4 z-[400] bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-xl p-3.5 shadow-xl text-xs text-slate-200 space-y-2.5 max-w-xs pointer-events-auto">
           <div className="font-semibold text-[11px] uppercase tracking-wider text-slate-400">
-            Map POIs
+            Dorm Monthly Rent Color
           </div>
-          <div className="flex flex-wrap items-center gap-2 text-[11px] text-slate-300">
-            <span className="px-1.5 py-0.5 rounded bg-indigo-600/80 text-white font-semibold">
-              🎓 Faculty
-            </span>
-            <span className="px-1.5 py-0.5 rounded bg-sky-600/80 text-white font-semibold">
-              🚆 Hbf
-            </span>
+          <div className="grid grid-cols-2 gap-x-4 gap-y-1.5">
+            {Object.entries(PRICE_TIERS).map(([key, tier]) => (
+              <div key={key} className="flex items-center gap-2">
+                <span
+                  className="w-3 h-3 rounded-full shrink-0 border"
+                  style={{
+                    backgroundColor: tier.bgHex,
+                    borderColor: tier.borderHex,
+                  }}
+                />
+                <span className="text-[11px] text-slate-300">{tier.rangeText}</span>
+              </div>
+            ))}
           </div>
-          {filters.showSupermarkets && (
-            <div className="flex items-center gap-2 text-[10px] text-slate-400 pt-0.5">
-              <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-emerald-950 text-emerald-300 border border-emerald-700 font-bold">
-                🌲
-              </span>
-              <span>Spar</span>
-              <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-amber-950 text-yellow-300 border border-amber-700 font-bold">
-                B
-              </span>
-              <span>Billa</span>
-              <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-blue-950 text-blue-300 border border-blue-700 font-bold">
-                H
-              </span>
-              <span>Hofer</span>
-              <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-blue-950 text-yellow-200 border border-yellow-600 font-bold">
-                L
-              </span>
-              <span>Lidl</span>
+
+          <div className="pt-2 border-t border-slate-800 space-y-1.5">
+            <div className="font-semibold text-[11px] uppercase tracking-wider text-slate-400">
+              Map POIs
             </div>
-          )}
+            <div className="flex flex-wrap items-center gap-2 text-[11px] text-slate-300">
+              <span className="px-1.5 py-0.5 rounded bg-indigo-600/80 text-white font-semibold">
+                🎓 Faculty
+              </span>
+              <span className="px-1.5 py-0.5 rounded bg-sky-600/80 text-white font-semibold">
+                🚆 Hbf
+              </span>
+            </div>
+            {filters.showSupermarkets && (
+              <div className="flex items-center gap-2 text-[10px] text-slate-400 pt-0.5">
+                <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-emerald-950 text-emerald-300 border border-emerald-700 font-bold">
+                  🌲
+                </span>
+                <span>Spar</span>
+                <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-amber-950 text-yellow-300 border border-amber-700 font-bold">
+                  B
+                </span>
+                <span>Billa</span>
+                <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-blue-950 text-blue-300 border border-blue-700 font-bold">
+                  H
+                </span>
+                <span>Hofer</span>
+                <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-blue-950 text-yellow-200 border border-yellow-600 font-bold">
+                  L
+                </span>
+                <span>Lidl</span>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
