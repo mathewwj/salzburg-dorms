@@ -134,9 +134,9 @@ export default function Sidebar({
           </div>
           <input
             type="range"
-            min={305}
+            min={145}
             max={900}
-            step={10}
+            step={5}
             value={filters.maxRent}
             onChange={(e) =>
               onChangeFilters({ ...filters, maxRent: Number(e.target.value) })
@@ -144,9 +144,9 @@ export default function Sidebar({
             className="w-full accent-blue-500 cursor-pointer"
           />
           <div className="flex justify-between text-[10px] text-slate-500">
-            <span>€305</span>
-            <span>€450</span>
-            <span>€600</span>
+            <span>€145</span>
+            <span>€350</span>
+            <span>€550</span>
             <span>€900</span>
           </div>
 
@@ -240,14 +240,15 @@ export default function Sidebar({
             }
             className="w-full px-3 py-2 text-xs bg-slate-950 border border-slate-800 rounded-lg text-slate-200 focus:border-blue-500 focus:outline-none cursor-pointer"
           >
-            <option value="ALL">All Providers (18 Dorms)</option>
+            <option value="ALL">All Providers ({evaluatedDorms.length} Dorms)</option>
             <option value="OEAD">OeAD Exchange Quota Available (6)</option>
             <option value="STUDENTENWERK">Salzburger Studentenwerk (7)</option>
+            <option value="TECHNOZ">Techno-Z Student Residence (3)</option>
             <option value="WIST">WIST Salzburg (3)</option>
             <option value="HOME4STUDENTS">Home4Students (1)</option>
             <option value="OEJAB">ÖJAB (1)</option>
             <option value="AKADEMIKERHILFE">Akademikerhilfe (1)</option>
-            <option value="INDEPENDENT">Independent / Private / KHW (5)</option>
+            <option value="INDEPENDENT">Independent / KHW / KHG / Kolping (8)</option>
           </select>
         </div>
 

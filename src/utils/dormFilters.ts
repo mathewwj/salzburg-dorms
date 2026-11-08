@@ -115,12 +115,19 @@ export function matchesProviderFilter(booking: BookingOption, providerFilter: st
   const p = booking.provider.toLowerCase();
   if (providerFilter === 'OEAD') return p.includes('oead');
   if (providerFilter === 'STUDENTENWERK') return p.includes('studentenwerk');
+  if (providerFilter === 'TECHNOZ') return p.includes('techno-z');
   if (providerFilter === 'WIST') return p.includes('wist');
   if (providerFilter === 'HOME4STUDENTS') return p.includes('home4students');
   if (providerFilter === 'OEJAB') return p.includes('öjab') || p.includes('oejab');
   if (providerFilter === 'AKADEMIKERHILFE') return p.includes('akademikerhilfe');
   if (providerFilter === 'INDEPENDENT') {
-    return p.includes('independent') || p.includes('private') || p.includes('katholisches');
+    return (
+      p.includes('independent') ||
+      p.includes('private') ||
+      p.includes('katholisch') ||
+      p.includes('evangelisch') ||
+      p.includes('kolping')
+    );
   }
   return true;
 }

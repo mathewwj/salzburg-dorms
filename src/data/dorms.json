@@ -2716,5 +2716,730 @@
         }
       }
     }
+  },
+  {
+    "dormitoryName": "Techno-Z Student Residence (Campus 2)",
+    "address": "Jakob-Haringer-Straße 1a, 5020 Salzburg",
+    "buildingAmenities": [
+      "Recreation room",
+      "Lawn with barbecue facilities",
+      "Beach volleyball court",
+      "Proximity to university faculties (Geoinformatics, Computer Sciences, Chemistry)"
+    ],
+    "bikeStorage": "Bike cellar available",
+    "laundryFacilities": "Laundry rooms with washing machines and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Techno-Z)",
+        "primaryUrl": "https://studentenheim.techno-z.at/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.techno-z.at/en/student-apartments-salzburg",
+          "roomsAndPricing": "https://studentenheim.techno-z.at/",
+          "contractAndCancellation": "https://studentenheim.techno-z.at/en/faq",
+          "houseRules": "https://studentenheim.techno-z.at/en/faq"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Check-in at Techno-Z Campus Verwaltung, Mon-Fri 09:30–12:30. Administration office hours Mon-Thu 08:00-12:30 & 13:30-17:00, Fri 08:00-12:30.",
+          "guestPolicy": "Apartments are strictly for single use only."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard statutory notice periods apply.",
+          "cancellationPenalty": "EUR 200 cancellation fee applies from the moment written confirmation is sent by the tenant."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "Highly convenient for Computer Science, Geoinformatics, and Materials Science",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee handling applies.",
+          "Bed storage fee of €5.00/month if student brings their own bed.",
+          "Additional cellar storage available for €10.00/month."
+        ],
+        "mandatoryExtraFees": [
+          "Administration fee: €200.00 (estimated)"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Apartment (28-35m²)",
+            "monthlyRentEur": 505,
+            "depositEur": 1515,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Internet provided (Cable TV connection present, own DVB-C receiver required)",
+            "cleaningServices": "Self-cleaning",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator"
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 47.82225,
+      "lng": 13.04235
+    },
+    "commute": {
+      "queriedAt": "Monday 10:00 AM",
+      "faculty": {
+        "walk": {
+          "durationMin": 1,
+          "distanceKm": 0.03
+        },
+        "bike": {
+          "durationMin": 1,
+          "distanceKm": 0.03
+        },
+        "transit": {
+          "durationMin": 1,
+          "transfers": 0,
+          "lines": [
+            "Walk"
+          ]
+        }
+      },
+      "trainStation": {
+        "walk": {
+          "durationMin": 18,
+          "distanceKm": 1.47
+        },
+        "bike": {
+          "durationMin": 5,
+          "distanceKm": 1.45
+        },
+        "transit": {
+          "durationMin": 12,
+          "transfers": 0,
+          "lines": [
+            "3"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "dormitoryName": "Techno-Z Student Residence (Campus 3)",
+    "address": "Austraße 3b, 5020 Salzburg",
+    "buildingAmenities": [
+      "Recreation room",
+      "Lawn with barbecue facilities",
+      "Beach volleyball court",
+      "Proximity to university faculties (Geoinformatics, Computer Sciences, Chemistry)"
+    ],
+    "bikeStorage": "Bike cellar available",
+    "laundryFacilities": "Laundry rooms with washing machines and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Techno-Z)",
+        "primaryUrl": "https://studentenheim.techno-z.at/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.techno-z.at/en/student-apartments-salzburg",
+          "roomsAndPricing": "https://studentenheim.techno-z.at/",
+          "contractAndCancellation": "https://studentenheim.techno-z.at/en/faq",
+          "houseRules": "https://studentenheim.techno-z.at/en/faq"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Check-in at Techno-Z Campus Verwaltung, Mon-Fri 09:30–12:30. Administration office hours Mon-Thu 08:00-12:30 & 13:30-17:00, Fri 08:00-12:30.",
+          "guestPolicy": "Apartments are strictly for single use only."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard statutory notice periods apply.",
+          "cancellationPenalty": "EUR 200 cancellation fee applies from the moment written confirmation is sent by the tenant."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "Highly convenient for Computer Science, Geoinformatics, and Materials Science",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee handling applies.",
+          "Bed storage fee of €5.00/month if student brings their own bed."
+        ],
+        "mandatoryExtraFees": [
+          "Administration fee: €200.00 (estimated)"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Apartment (28-35m²)",
+            "monthlyRentEur": 505,
+            "depositEur": 1515,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Internet provided (Cable TV connection present, own DVB-C receiver required)",
+            "cleaningServices": "Self-cleaning",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator"
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 47.82335,
+      "lng": 13.04365
+    },
+    "commute": {
+      "queriedAt": "Monday 10:00 AM",
+      "faculty": {
+        "walk": {
+          "durationMin": 2,
+          "distanceKm": 0.15
+        },
+        "bike": {
+          "durationMin": 2,
+          "distanceKm": 0.58
+        },
+        "transit": {
+          "durationMin": 2,
+          "transfers": 0,
+          "lines": [
+            "Walk"
+          ]
+        }
+      },
+      "trainStation": {
+        "walk": {
+          "durationMin": 19,
+          "distanceKm": 1.54
+        },
+        "bike": {
+          "durationMin": 5,
+          "distanceKm": 1.5
+        },
+        "transit": {
+          "durationMin": 13,
+          "transfers": 0,
+          "lines": [
+            "6"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "dormitoryName": "Techno-Z Student Residence (Campus 4)",
+    "address": "Austraße 3a, 5020 Salzburg",
+    "buildingAmenities": [
+      "Recreation room",
+      "Lawn with barbecue facilities",
+      "Beach volleyball court",
+      "Proximity to university faculties (Geoinformatics, Computer Sciences, Chemistry)"
+    ],
+    "bikeStorage": "Bike cellar available",
+    "laundryFacilities": "Laundry rooms with washing machines and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Techno-Z)",
+        "primaryUrl": "https://studentenheim.techno-z.at/",
+        "sourceLinks": {
+          "applicationPortal": "https://studentenheim.techno-z.at/en/student-apartments-salzburg",
+          "roomsAndPricing": "https://studentenheim.techno-z.at/",
+          "contractAndCancellation": "https://studentenheim.techno-z.at/en/faq",
+          "houseRules": "https://studentenheim.techno-z.at/en/faq"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Check-in at Techno-Z Campus Verwaltung, Mon-Fri 09:30–12:30. Administration office hours Mon-Thu 08:00-12:30 & 13:30-17:00, Fri 08:00-12:30.",
+          "guestPolicy": "Apartments are strictly for single use only."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard statutory notice periods apply.",
+          "cancellationPenalty": "EUR 200 cancellation fee applies from the moment written confirmation is sent by the tenant."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "Highly convenient for Computer Science, Geoinformatics, and Materials Science",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee handling applies.",
+          "Bed storage fee of €5.00/month if student brings their own bed."
+        ],
+        "mandatoryExtraFees": [
+          "Administration fee: €200.00 (estimated)"
+        ],
+        "rooms": [
+          {
+            "roomType": "Single Apartment (28-35m²)",
+            "monthlyRentEur": 505,
+            "depositEur": 1515,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Internet provided (Cable TV connection present, own DVB-C receiver required)",
+            "cleaningServices": "Self-cleaning",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "Refrigerator"
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 47.82435,
+      "lng": 13.04185
+    },
+    "commute": {
+      "queriedAt": "Monday 10:00 AM",
+      "faculty": {
+        "walk": {
+          "durationMin": 2,
+          "distanceKm": 0.18
+        },
+        "bike": {
+          "durationMin": 2,
+          "distanceKm": 0.68
+        },
+        "transit": {
+          "durationMin": 2,
+          "transfers": 0,
+          "lines": [
+            "Walk"
+          ]
+        }
+      },
+      "trainStation": {
+        "walk": {
+          "durationMin": 19,
+          "distanceKm": 1.57
+        },
+        "bike": {
+          "durationMin": 6,
+          "distanceKm": 1.6
+        },
+        "transit": {
+          "durationMin": 13,
+          "transfers": 0,
+          "lines": [
+            "6"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "dormitoryName": "Kolpinghaus Salzburg",
+    "address": "Adolf-Kolping-Straße 10, 5020 Salzburg",
+    "buildingAmenities": [
+      "Modern breakfast room",
+      "Public areas barrier-free",
+      "Study areas"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Kolpinghaus)",
+        "primaryUrl": "https://www.kolpinghaus-salzburg.at/de/jugendwohnheim/",
+        "sourceLinks": {
+          "applicationPortal": "https://www.kolpinghaus-salzburg.at/de/jugendwohnheim/zimmer.html",
+          "roomsAndPricing": "https://www.kolpinghaus-salzburg.at/de/jugendwohnheim/zimmer.html",
+          "contractAndCancellation": "https://www.kolpinghaus-salzburg.at/de/jugendwohnheim/zimmer.html",
+          "houseRules": "https://www.kolpinghaus-salzburg.at/de/jugendwohnheim/zimmer.html"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Standard reception check-in. Subject to specific arrival conditions.",
+          "guestPolicy": "Short-term overnight guests allowed upon prior registration and payment of a €5.00 nightly fee."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard contract aligned with school/academic year; semester termination possible.",
+          "cancellationPenalty": "Subject to standard Austrian laws on early cancellation."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Students, apprentices, and pupils",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Room price includes half-board meal plan (Halbpension) and pedagogical support.",
+          "Car parking available for an extra €50.00/month."
+        ],
+        "mandatoryExtraFees": [],
+        "rooms": [
+          {
+            "roomType": "Twin Room / Double Room",
+            "monthlyRentEur": 362.9,
+            "depositEur": 725.8,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included, TV connection",
+            "cleaningServices": "Room cleaning included",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Half-board dining (no private kitchen)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "TV"
+            ]
+          },
+          {
+            "roomType": "Single Room",
+            "monthlyRentEur": 657.7,
+            "depositEur": 1315.4,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included, TV connection",
+            "cleaningServices": "Room cleaning included",
+            "bathroomSetup": "Private en-suite (Shower/Toilet)",
+            "kitchenSetup": "Half-board dining (no private kitchen)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe",
+              "TV"
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 47.8215,
+      "lng": 13.03627
+    },
+    "commute": {
+      "queriedAt": "Monday 10:00 AM",
+      "faculty": {
+        "walk": {
+          "durationMin": 13,
+          "distanceKm": 1.09
+        },
+        "bike": {
+          "durationMin": 3,
+          "distanceKm": 0.96
+        },
+        "transit": {
+          "durationMin": 13,
+          "transfers": 0,
+          "lines": [
+            "Walk"
+          ]
+        }
+      },
+      "trainStation": {
+        "walk": {
+          "durationMin": 18,
+          "distanceKm": 1.49
+        },
+        "bike": {
+          "durationMin": 5,
+          "distanceKm": 1.47
+        },
+        "transit": {
+          "durationMin": 13,
+          "transfers": 0,
+          "lines": [
+            "S1"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "dormitoryName": "Evangelisches Studentenheim (Katharina von Bora)",
+    "address": "Dr.-Adolf-Altmann-Straße 10, 5020 Salzburg",
+    "buildingAmenities": [
+      "Community areas",
+      "Garden spaces"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers available",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Evangelische Hochschulgemeinde)",
+        "primaryUrl": "https://www.ehg-online.at/salzburg/studentenheim/",
+        "sourceLinks": {
+          "applicationPortal": "https://www.ehg-online.at/salzburg/studentenheim/",
+          "roomsAndPricing": "https://www.evang-salzburg.at/studentenheim",
+          "contractAndCancellation": "https://www.ehg-online.at/salzburg/studentenheim/",
+          "houseRules": "https://www.evang-salzburg.at/studentenheim"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Often booked out entirely for full academic years",
+          "allocationMethod": "Preference given to first-year students and those with an openness to the (Protestant) church."
+        },
+        "logistics": {
+          "acceptsSummerSemester": false,
+          "moveInRules": "Check-in by arrangement with the residence management (Pfarrerin Melanie Dormann).",
+          "guestPolicy": "Standard Austrian Studentenheim guest guidelines."
+        },
+        "contractTerms": {
+          "noticePeriod": "Rooms are exclusively rented out for the full academic year (Sept 15 - Sept 14). Strict adherence to 12-month lease unless finding a replacement.",
+          "cancellationPenalty": "Subject to standard rental agreements."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None, but preference to Protestant church openness",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents",
+          "This dormitory strongly enforces a 12-month contract requirement, making a standard 5-month Erasmus summer semester highly difficult without paying for unused months."
+        ],
+        "mandatoryExtraFees": [],
+        "rooms": [
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 370,
+            "depositEur": 740,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite or Shared flat (varies by room size)",
+            "kitchenSetup": "Shared floor kitchen or Private kitchenette (varies by room size)",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Large Single Room",
+            "monthlyRentEur": 540,
+            "depositEur": 1080,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning for rooms",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Private kitchenette",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 47.77896,
+      "lng": 13.0448
+    },
+    "commute": {
+      "queriedAt": "Monday 10:00 AM",
+      "faculty": {
+        "walk": {
+          "durationMin": 73,
+          "distanceKm": 6.06
+        },
+        "bike": {
+          "durationMin": 23,
+          "distanceKm": 6.5
+        },
+        "transit": {
+          "durationMin": 33,
+          "transfers": 1,
+          "lines": [
+            "5",
+            "6"
+          ]
+        }
+      },
+      "trainStation": {
+        "walk": {
+          "durationMin": 60,
+          "distanceKm": 5
+        },
+        "bike": {
+          "durationMin": 19,
+          "distanceKm": 5.42
+        },
+        "transit": {
+          "durationMin": 24,
+          "transfers": 0,
+          "lines": [
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "dormitoryName": "Intercultural Student House St. Joe (Haus Michael / KHG)",
+    "address": "Gstättengasse 10, 5020 Salzburg",
+    "buildingAmenities": [
+      "Community environment",
+      "Central old town location"
+    ],
+    "bikeStorage": "Bicycle parking available",
+    "laundryFacilities": "In-building washing machines and dryers",
+    "photos": [],
+    "bookingOptions": [
+      {
+        "provider": "Direct Operator (Katholische Hochschulgemeinde)",
+        "primaryUrl": "http://www.studentenheim.org/en/",
+        "sourceLinks": {
+          "applicationPortal": "http://www.studentenheim.org/en/bewerbung.htm",
+          "roomsAndPricing": "http://www.studentenheim.org/en/zimmer.htm",
+          "contractAndCancellation": "http://www.studentenheim.org/en/",
+          "houseRules": "http://www.studentenheim.org/en/"
+        },
+        "applicationWindow": {
+          "portalOpens": "Rolling",
+          "deadline": "Rolling admission",
+          "allocationMethod": "First-come-first-served, community interview"
+        },
+        "logistics": {
+          "acceptsSummerSemester": true,
+          "moveInRules": "Check-in by appointment.",
+          "guestPolicy": "Short-term guests require registration."
+        },
+        "contractTerms": {
+          "noticePeriod": "Standard statutory notice periods apply.",
+          "cancellationPenalty": "Subject to standard rental agreements."
+        },
+        "eligibilityAndRestrictions": {
+          "ageLimit": null,
+          "targetGroup": "Enrolled tertiary students",
+          "facultyOrUniRestriction": "None",
+          "genderRestriction": "Co-ed"
+        },
+        "specialNotes": [
+          "Mandatory GIS/OBS broadcasting fee automatically exempted for dorm residents"
+        ],
+        "mandatoryExtraFees": [],
+        "rooms": [
+          {
+            "roomType": "Twin Room / Double Room",
+            "monthlyRentEur": 146,
+            "depositEur": 292,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning",
+            "bathroomSetup": "Shared floor bathroom",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Standard Single Room",
+            "monthlyRentEur": 193,
+            "depositEur": 386,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning",
+            "bathroomSetup": "Shared floor bathroom",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          },
+          {
+            "roomType": "Single Room en-suite",
+            "monthlyRentEur": 230,
+            "depositEur": 460,
+            "utilitiesIncluded": true,
+            "internetInfrastructure": "Wi-Fi included",
+            "cleaningServices": "Self-cleaning",
+            "bathroomSetup": "Private en-suite",
+            "kitchenSetup": "Shared floor kitchen",
+            "roomEquipment": [
+              "Bed",
+              "Desk",
+              "Chair",
+              "Wardrobe"
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 47.80133,
+      "lng": 13.03898
+    },
+    "commute": {
+      "queriedAt": "Monday 10:00 AM",
+      "faculty": {
+        "walk": {
+          "durationMin": 36,
+          "distanceKm": 2.88
+        },
+        "bike": {
+          "durationMin": 11,
+          "distanceKm": 3.18
+        },
+        "transit": {
+          "durationMin": 23,
+          "transfers": 0,
+          "lines": [
+            "6"
+          ]
+        }
+      },
+      "trainStation": {
+        "walk": {
+          "durationMin": 24,
+          "distanceKm": 1.81
+        },
+        "bike": {
+          "durationMin": 8,
+          "distanceKm": 2.31
+        },
+        "transit": {
+          "durationMin": 15,
+          "transfers": 0,
+          "lines": [
+            "175"
+          ]
+        }
+      }
+    }
   }
 ]

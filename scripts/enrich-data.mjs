@@ -50,6 +50,12 @@ const FALLBACK_COORDS = {
   '@HOME Studentenwohnheim': { lat: 47.81174, lng: 13.03305 },
   'Salzburger Lehrerhaus': { lat: 47.79982, lng: 13.03152 },
   'Dr. Franz Rehrl Studentenheim': { lat: 47.79371, lng: 13.05568 },
+  'Techno-Z Student Residence (Campus 2)': { lat: 47.82255, lng: 13.04145 },
+  'Techno-Z Student Residence (Campus 3)': { lat: 47.82195, lng: 13.04225 },
+  'Techno-Z Student Residence (Campus 4)': { lat: 47.82165, lng: 13.04185 },
+  'Kolpinghaus Salzburg': { lat: 47.81928, lng: 13.03985 },
+  'Evangelisches Studentenheim (Katharina von Bora)': { lat: 47.79558, lng: 13.04215 },
+  'Intercultural Student House St. Joe (Haus Michael / KHG)': { lat: 47.80025, lng: 13.03942 },
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -235,6 +241,10 @@ async function main() {
 
   for (let i = 0; i < dorms.length; i++) {
     const dorm = dorms[i];
+    if (dorm.coordinates && dorm.commute?.faculty && dorm.commute?.trainStation) {
+      console.log(`[${i + 1}/${dorms.length}] Skipping ${dorm.dormitoryName} (already enriched)`);
+      continue;
+    }
     console.log(`[${i + 1}/${dorms.length}] Processing ${dorm.dormitoryName}...`);
 
     const coords = await geocodeAddress(dorm.dormitoryName, dorm.address);
@@ -276,6 +286,16 @@ async function main() {
 
   await fs.writeFile(DORMS_PATH, JSON.stringify(dorms, null, 2) + '\n', 'utf-8');
   console.log(`Updated ${DORMS_PATH}`);
+
+  try {
+    const existingPois = JSON.parse(await fs.readFile(POIS_PATH, 'utf-8'));
+    if (existingPois.supermarkets && existingPois.supermarkets.length > 0) {
+      console.log(`Supermarkets already present in ${POIS_PATH} (${existingPois.supermarkets.length}). Skipping Overpass.`);
+      return;
+    }
+  } catch {
+    // Proceed to fetch supermarkets
+  }
 
   const supermarkets = await fetchSupermarkets();
   const poisData = {

@@ -100,14 +100,14 @@ function createDestinationIcon(dest: DestinationPOI): L.DivIcon {
   const isFaculty = dest.category === 'faculty';
   const bg = isFaculty ? '#4f46e5' : '#0284c7'; // indigo-600 vs sky-600
   const border = isFaculty ? '#a5b4fc' : '#7dd3fc';
-  const badgeText = isFaculty ? '🎓 Faculty (Techno-Z)' : '🚆 Salzburg Hbf';
+  const badgeText = isFaculty ? '🎓 Faculty' : '🚆 Hbf';
 
   const html = `
     <div style="
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      padding: 4px 10px;
+      padding: 3px 8px;
       border-radius: 8px;
       background-color: ${bg};
       color: #ffffff;
@@ -116,7 +116,7 @@ function createDestinationIcon(dest: DestinationPOI): L.DivIcon {
       font-size: 11px;
       line-height: 1.1;
       white-space: nowrap;
-      box-shadow: 0 0 16px ${bg}99, 0 4px 12px rgba(0,0,0,0.7);
+      box-shadow: 0 0 14px ${bg}99, 0 4px 10px rgba(0,0,0,0.7);
     ">
       <span>${badgeText}</span>
     </div>
@@ -125,8 +125,8 @@ function createDestinationIcon(dest: DestinationPOI): L.DivIcon {
   return L.divIcon({
     html,
     className: 'custom-destination-marker',
-    iconSize: [130, 28],
-    iconAnchor: [65, 14],
+    iconSize: [80, 24],
+    iconAnchor: [40, 12],
     popupAnchor: [0, -14],
   });
 }
@@ -268,7 +268,7 @@ export default function DormMap({
               key={dest.id}
               position={[dest.lat, dest.lng]}
               icon={createDestinationIcon(dest)}
-              zIndexOffset={800}
+              zIndexOffset={300}
             >
               <Popup>
                 <div className="p-3.5 text-slate-100 space-y-1">
@@ -293,7 +293,7 @@ export default function DormMap({
                 key={dorm.dormitoryName}
                 position={[coords.lat, coords.lng]}
                 icon={createDormIcon(item, isSelected)}
-                zIndexOffset={isSelected ? 1000 : 200}
+                zIndexOffset={isSelected ? 1000 : 500}
                 eventHandlers={{
                   click: () => onSelectDorm(dorm.dormitoryName),
                 }}
