@@ -232,11 +232,19 @@ export default function DormMap({
           className="w-full h-full z-0"
           zoomControl={true}
         >
-          {/* OpenStreetMap Basemap (Dark-styled via CSS on .leaflet-tile-pane) */}
+          {/* Clean Minimalistic Dark Canvas Basemap (ArcGIS Dark Gray Canvas) */}
           <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='&copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors'
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+            maxNativeZoom={16}
             maxZoom={19}
+          />
+          {/* Subtle minimal street/neighborhood reference labels on top */}
+          <TileLayer
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+            maxNativeZoom={16}
+            maxZoom={19}
+            opacity={0.65}
           />
 
           <MapSelectionController selectedDorm={selectedEvaluated?.dorm} />

@@ -3,12 +3,8 @@
 
 /* Custom Dark Mode Overrides for Leaflet */
 .leaflet-container {
-  background-color: #090d16;
+  background-color: #12151c;
   font-family: inherit;
-}
-
-.leaflet-tile-pane {
-  filter: invert(100%) hue-rotate(180deg) saturate(35%) brightness(88%) contrast(95%);
 }
 
 .leaflet-popup-content-wrapper {
