@@ -1,0 +1,760 @@
+{
+  "destinations": [
+    {
+      "id": "faculty-techno-z",
+      "name": "PLUS Faculty (Jakob-Haringer-Str. 2)",
+      "shortName": "Faculty (Techno-Z)",
+      "address": "Jakob-Haringer-Straße 2, 5020 Salzburg",
+      "category": "faculty",
+      "lat": 47.82292,
+      "lng": 13.04053
+    },
+    {
+      "id": "salzburg-hbf",
+      "name": "Salzburg Hauptbahnhof",
+      "shortName": "Main Train Station",
+      "address": "Südtiroler Platz 1, 5020 Salzburg",
+      "category": "station",
+      "lat": 47.81285,
+      "lng": 13.0456
+    }
+  ],
+  "supermarkets": [
+    {
+      "id": "sm-266655195",
+      "name": "Billa Plus",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.7777,
+      "lng": 13.06737
+    },
+    {
+      "id": "sm-268056324",
+      "name": "dm",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80292,
+      "lng": 13.04626
+    },
+    {
+      "id": "sm-294230449",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.80848,
+      "lng": 13.01492
+    },
+    {
+      "id": "sm-355212819",
+      "name": "Eurospar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.78616,
+      "lng": 13.06528
+    },
+    {
+      "id": "sm-355214201",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.78647,
+      "lng": 13.06553
+    },
+    {
+      "id": "sm-444661893",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.79321,
+      "lng": 13.06517
+    },
+    {
+      "id": "sm-452437490",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80591,
+      "lng": 13.02683
+    },
+    {
+      "id": "sm-452437495",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.79746,
+      "lng": 13.03396
+    },
+    {
+      "id": "sm-470857168",
+      "name": "Penny",
+      "brand": "Penny",
+      "category": "supermarket",
+      "lat": 47.79584,
+      "lng": 13.02683
+    },
+    {
+      "id": "sm-477834749",
+      "name": "Denns BioMarkt",
+      "brand": "Bio",
+      "category": "supermarket",
+      "lat": 47.78158,
+      "lng": 13.068
+    },
+    {
+      "id": "sm-509311419",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.7828,
+      "lng": 13.08011
+    },
+    {
+      "id": "sm-529683748",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.8006,
+      "lng": 13.01153
+    },
+    {
+      "id": "sm-529683770",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.81156,
+      "lng": 13.00622
+    },
+    {
+      "id": "sm-579727441",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.80161,
+      "lng": 13.06671
+    },
+    {
+      "id": "sm-620443231",
+      "name": "Eurospar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.81406,
+      "lng": 13.04511
+    },
+    {
+      "id": "sm-623036804",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.77448,
+      "lng": 13.04192
+    },
+    {
+      "id": "sm-654013754",
+      "name": "Denns BioMarkt",
+      "brand": "Bio",
+      "category": "supermarket",
+      "lat": 47.80955,
+      "lng": 13.05713
+    },
+    {
+      "id": "sm-654013974",
+      "name": "Eurospar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80965,
+      "lng": 13.05804
+    },
+    {
+      "id": "sm-814276648",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80473,
+      "lng": 13.04932
+    },
+    {
+      "id": "sm-814276651",
+      "name": "Reformhaus Martin",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80198,
+      "lng": 13.04532
+    },
+    {
+      "id": "sm-814276667",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.80064,
+      "lng": 13.04196
+    },
+    {
+      "id": "sm-815555747",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.79661,
+      "lng": 13.05013
+    },
+    {
+      "id": "sm-818635292",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.8032,
+      "lng": 13.06605
+    },
+    {
+      "id": "sm-824329432",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80608,
+      "lng": 13.0448
+    },
+    {
+      "id": "sm-824387556",
+      "name": "Etihad Market",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80968,
+      "lng": 13.04728
+    },
+    {
+      "id": "sm-882433069",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.82757,
+      "lng": 13.0368
+    },
+    {
+      "id": "sm-884228439",
+      "name": "Penny",
+      "brand": "Penny",
+      "category": "supermarket",
+      "lat": 47.81472,
+      "lng": 13.06933
+    },
+    {
+      "id": "sm-914375252",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.80537,
+      "lng": 13.02206
+    },
+    {
+      "id": "sm-1204795587",
+      "name": "Milchladen SalzburgMilch GmbH",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.82049,
+      "lng": 13.04062
+    },
+    {
+      "id": "sm-1246792674",
+      "name": "Lidl",
+      "brand": "Lidl",
+      "category": "supermarket",
+      "lat": 47.80641,
+      "lng": 13.00918
+    },
+    {
+      "id": "sm-1407247469",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80014,
+      "lng": 13.07526
+    },
+    {
+      "id": "sm-1407285198",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.78889,
+      "lng": 13.07759
+    },
+    {
+      "id": "sm-1435468527",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.79129,
+      "lng": 13.02879
+    },
+    {
+      "id": "sm-1448091712",
+      "name": "Norma",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.8136,
+      "lng": 13.05174
+    },
+    {
+      "id": "sm-1628874427",
+      "name": "Interspar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.81479,
+      "lng": 13.00781
+    },
+    {
+      "id": "sm-1631504873",
+      "name": "Billa Plus",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.80826,
+      "lng": 13.06399
+    },
+    {
+      "id": "sm-1692249285",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.82263,
+      "lng": 13.03915
+    },
+    {
+      "id": "sm-1692291262",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.82462,
+      "lng": 13.04619
+    },
+    {
+      "id": "sm-1721060609",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.8182,
+      "lng": 13.06554
+    },
+    {
+      "id": "sm-1796738513",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.81304,
+      "lng": 13.0454
+    },
+    {
+      "id": "sm-1825577704",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.79113,
+      "lng": 13.01914
+    },
+    {
+      "id": "sm-1911077530",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.81678,
+      "lng": 13.02949
+    },
+    {
+      "id": "sm-2411289354",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.81037,
+      "lng": 13.04236
+    },
+    {
+      "id": "sm-2574611875",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80909,
+      "lng": 13.01197
+    },
+    {
+      "id": "sm-3002580233",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80981,
+      "lng": 13.03267
+    },
+    {
+      "id": "sm-3027845635",
+      "name": "Billa Plus",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.82998,
+      "lng": 13.00467
+    },
+    {
+      "id": "sm-3208668013",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.80915,
+      "lng": 13.05543
+    },
+    {
+      "id": "sm-3429901355",
+      "name": "Eurospar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.77413,
+      "lng": 13.06855
+    },
+    {
+      "id": "sm-3961315472",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.80003,
+      "lng": 13.0435
+    },
+    {
+      "id": "sm-4265843778",
+      "name": "Namli",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81163,
+      "lng": 13.03423
+    },
+    {
+      "id": "sm-4345800867",
+      "name": "Muspelhaus",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80219,
+      "lng": 13.02713
+    },
+    {
+      "id": "sm-4353902499",
+      "name": "Asiatischer Spezialitätenmarkt",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80528,
+      "lng": 13.04411
+    },
+    {
+      "id": "sm-4542994112",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.77364,
+      "lng": 13.07095
+    },
+    {
+      "id": "sm-5339960001",
+      "name": "Asia Food Long Long",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.79637,
+      "lng": 13.0242
+    },
+    {
+      "id": "sm-5373722057",
+      "name": "La Alex",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81135,
+      "lng": 13.02894
+    },
+    {
+      "id": "sm-5589313483",
+      "name": "AL SALAM Supermarkt",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81071,
+      "lng": 13.04008
+    },
+    {
+      "id": "sm-6407530712",
+      "name": "Aekshea",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80945,
+      "lng": 13.04786
+    },
+    {
+      "id": "sm-6569585054",
+      "name": "MPREIS",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80841,
+      "lng": 13.00265
+    },
+    {
+      "id": "sm-7000669844",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.79657,
+      "lng": 13.02325
+    },
+    {
+      "id": "sm-7000669845",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.80136,
+      "lng": 13.01544
+    },
+    {
+      "id": "sm-7888497092",
+      "name": "Hamam",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81393,
+      "lng": 13.04279
+    },
+    {
+      "id": "sm-8038360681",
+      "name": "Oriental Market",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81124,
+      "lng": 13.03378
+    },
+    {
+      "id": "sm-8043106511",
+      "name": "Baladi Markt",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81304,
+      "lng": 13.02638
+    },
+    {
+      "id": "sm-9962620135",
+      "name": "HOMS GATE بوابة حمص",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81233,
+      "lng": 13.04306
+    },
+    {
+      "id": "sm-10310239160",
+      "name": "Mix Markt",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.82253,
+      "lng": 13.05061
+    },
+    {
+      "id": "sm-10903717595",
+      "name": "Lidl",
+      "brand": "Lidl",
+      "category": "supermarket",
+      "lat": 47.79057,
+      "lng": 13.07506
+    },
+    {
+      "id": "sm-10911284975",
+      "name": "English Shop Salzburg",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.82249,
+      "lng": 13.06168
+    },
+    {
+      "id": "sm-10984398449",
+      "name": "Karadeniz Market",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81091,
+      "lng": 13.02846
+    },
+    {
+      "id": "sm-10984433552",
+      "name": "Ninjas.Jetzt",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81282,
+      "lng": 13.05614
+    },
+    {
+      "id": "sm-11383297065",
+      "name": "Billa Plus",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.82434,
+      "lng": 13.03893
+    },
+    {
+      "id": "sm-13701584901",
+      "name": "Beertasting Shop",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.78128,
+      "lng": 13.05113
+    },
+    {
+      "id": "sm-13719625123",
+      "name": "Look Asia-Supermarkt",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.80639,
+      "lng": 13.05399
+    },
+    {
+      "id": "sm-13925976746",
+      "name": "Kavak Supermarkt",
+      "brand": "Supermarket",
+      "category": "supermarket",
+      "lat": 47.81369,
+      "lng": 13.0503
+    },
+    {
+      "id": "sm-29280846",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.77446,
+      "lng": 13.07012
+    },
+    {
+      "id": "sm-44978440",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.81027,
+      "lng": 13.04826
+    },
+    {
+      "id": "sm-45496718",
+      "name": "Interspar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.81381,
+      "lng": 13.0256
+    },
+    {
+      "id": "sm-48578254",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.786,
+      "lng": 13.05156
+    },
+    {
+      "id": "sm-48578255",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.78796,
+      "lng": 13.04718
+    },
+    {
+      "id": "sm-67616295",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.8382,
+      "lng": 13.05723
+    },
+    {
+      "id": "sm-121701508",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.78826,
+      "lng": 13.08313
+    },
+    {
+      "id": "sm-122743366",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.82235,
+      "lng": 13.02317
+    },
+    {
+      "id": "sm-131610080",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.81844,
+      "lng": 13.02189
+    },
+    {
+      "id": "sm-133892584",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.79295,
+      "lng": 13.01521
+    },
+    {
+      "id": "sm-134120742",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.82506,
+      "lng": 13.07992
+    },
+    {
+      "id": "sm-134204748",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.82507,
+      "lng": 13.07882
+    },
+    {
+      "id": "sm-139575238",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.80743,
+      "lng": 13.06706
+    },
+    {
+      "id": "sm-170418274",
+      "name": "Lidl",
+      "brand": "Lidl",
+      "category": "supermarket",
+      "lat": 47.81738,
+      "lng": 13.01977
+    },
+    {
+      "id": "sm-179587040",
+      "name": "Hofer",
+      "brand": "Hofer",
+      "category": "supermarket",
+      "lat": 47.83021,
+      "lng": 13.08308
+    },
+    {
+      "id": "sm-202589578",
+      "name": "Spar",
+      "brand": "Spar",
+      "category": "supermarket",
+      "lat": 47.78211,
+      "lng": 13.05338
+    },
+    {
+      "id": "sm-327362364",
+      "name": "Lidl",
+      "brand": "Lidl",
+      "category": "supermarket",
+      "lat": 47.80994,
+      "lng": 13.05898
+    },
+    {
+      "id": "sm-612497431",
+      "name": "Billa",
+      "brand": "Billa",
+      "category": "supermarket",
+      "lat": 47.81306,
+      "lng": 13.03174
+    },
+    {
+      "id": "sm-1554633483",
+      "name": "Penny",
+      "brand": "Penny",
+      "category": "supermarket",
+      "lat": 47.8086,
+      "lng": 13.05962
+    }
+  ]
+}
